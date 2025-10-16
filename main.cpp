@@ -288,26 +288,30 @@ SDL_AppResult SDL_AppEvent(void *appstate, SDL_Event *event){
         case SDL_EVENT_KEY_DOWN:
             if(event->key.scancode == SDL_SCANCODE_W){
                 //SDL_Log("W");
-                snake.direction.y = -1.0f;
-                snake.orientation.y = -1.0f;
+                if(snake.orientation.y == 0.0f){
+                    snake.orientation.y = -1.0f;
+                }
                 snake.orientation.x = 0.0f;
             }
             else if(event->key.scancode == SDL_SCANCODE_S){
                 //SDL_Log("S");
-                snake.direction.y = 1.0f;
-                snake.orientation.y = 1.0f;
+                if(snake.orientation.y == 0.0f){
+                    snake.orientation.y = 1.0f;
+                }
                 snake.orientation.x = 0.0f;
             }
             else if(event->key.scancode == SDL_SCANCODE_A){
                 //SDL_Log("A");
-                snake.direction.x = -1.0f;
-                snake.orientation.x = -1.0f;
+                if(snake.orientation.x == 0.0f){
+                    snake.orientation.x = -1.0f;
+                }
                 snake.orientation.y = 0.0f;
             }
             else if(event->key.scancode == SDL_SCANCODE_D){
                 //SDL_Log("D");
-                snake.direction.x = 1.0f;
-                snake.orientation.x = 1.0f;
+                if(snake.orientation.x == 0.0f){
+                    snake.orientation.x = 1.0f;
+                }
                 snake.orientation.y = 0.0f;
             }
             break;
