@@ -1,0 +1,8 @@
+/home/martial/Documents/SDL_SNAKE_GAME/build/CMakeFiles/snake.dir
+/home/martial/Documents/SDL_SNAKE_GAME/build/CMakeFiles/edit_cache.dir
+/home/martial/Documents/SDL_SNAKE_GAME/build/CMakeFiles/rebuild_cache.dir
+/home/martial/Documents/SDL_SNAKE_GAME/build/SDL/CMakeFiles/SDL3-shared.dir
+/home/martial/Documents/SDL_SNAKE_GAME/build/SDL/CMakeFiles/SDL3_test.dir
+/home/martial/Documents/SDL_SNAKE_GAME/build/SDL/CMakeFiles/SDL_uclibc.dir
+/home/martial/Documents/SDL_SNAKE_GAME/build/SDL/CMakeFiles/edit_cache.dir
+/home/martial/Documents/SDL_SNAKE_GAME/build/SDL/CMakeFiles/rebuild_cache.dir

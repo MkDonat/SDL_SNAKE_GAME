@@ -1,0 +1,12 @@
+{
+    "editor.fontSize": 16,
+    "code-runner.defaultLanguage": "shell",
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+
+        "cpp": "./build_run.sh"
+    },
+    "files.associations": {
+        "vector": "cpp"
+    }
+}
