@@ -68,10 +68,8 @@ World world;
 // Snake stuffs - WASD config
 typedef struct{
     SDL_FRect frect = {};
-    std::vector <SDL_FPoint> cells;
+    std::vector <Vector2> points;
     uint32_t speed = 150;
-    Vector2 global_pos = {0.0f , 0.0f};
-    Vector2 world_position = {0.0f , 0.0f};
     Vector2 direction = {0.0f , 0.0f};
     Vector2 orientation = {1.0f , 0.0f};
     float size_scale_w = 1.0f;
@@ -81,7 +79,6 @@ typedef struct{
 Snake snake;
 
 // Custom functions declaration and implementation
-
 Vector2 get_global_position(Vector2 world_pos, World world){
     int x = {}, y = {};
     x = world_pos.x * world.WIDTH_CELLS_SIZE;
@@ -89,10 +86,10 @@ Vector2 get_global_position(Vector2 world_pos, World world){
     return (Vector2){x , y};
 }
 
-Vector2 next_world_position(World world, Snake snake){
+Vector2 next_world_position(World world, Vector2 orientation, Vector2 world_position){
     std::array<std::array<int, 4>, 2> d = {{
-        {snake.world_position.x, snake.orientation.x, world.MAX_COLUMNS_COUNT-1, world.MIN_COLUMNS_COUNT},
-        {snake.world_position.y, snake.orientation.y, world.MAX_LINES_COUNT-1, world.MIN_LINES_COUNT}
+        {world_position.x, Vector2_normalized(orientation).x, world.MAX_COLUMNS_COUNT-1, world.MIN_COLUMNS_COUNT},
+        {world_position.y, Vector2_normalized(orientation).y, world.MAX_LINES_COUNT-1, world.MIN_LINES_COUNT}
     }};
      
     for (int i = 0; i < 2; ++i){
@@ -120,25 +117,42 @@ Vector2 next_world_position(World world, Snake snake){
     return (Vector2){d[0][0], d[1][0]};
 }
 
-Uint32 snake_next_move(void *userdata, SDL_TimerID timerID, Uint32 interval){
+Uint32 snake_next_frame(void *userdata, SDL_TimerID timerID, Uint32 interval){
+    // for each snake point
+    for(int i = (int)snake.points.size()-1; i >= 0; i--){
+        if(i == 0){ // snake head point
+            Vector2 orientation{snake.orientation.x , snake.orientation.y};
+            snake.points[i].x = next_world_position(world, orientation, snake.points[i]).x;
+            snake.points[i].y = next_world_position(world, orientation, snake.points[i]).y;
+        }else{ // snake body points
+            snake.points[i].x = snake.points[i-1].x;
+            snake.points[i].y = snake.points[i-1].y;
+        }
+    }
 
-    snake.world_position = next_world_position(world, snake);
-    snake.global_pos = get_global_position( 
-        snake.world_position
-        ,
-        world
-    );
-
-    snake.frect.x = snake.global_pos.x;
-    snake.frect.y = snake.global_pos.y;
-    
-    //SDL_Log("col: %.2f, li: %.2f\n", snake.global_pos.x, snake.global_pos.y);
     return interval;
 }
 
 void snake_update(){
+
     snake.frect.w = world.WIDTH_CELLS_SIZE * snake.size_scale_w;
     snake.frect.h = world.HEIGHT_CELLS_SIZE * snake.size_scale_h;
+    
+    // we get the global position to a frect for drawing
+    for(size_t i = 0; i < snake.points.size(); i++){
+        
+        snake.frect.x = get_global_position(snake.points[i], world).x;
+        snake.frect.y = get_global_position(snake.points[i], world).y;
+        
+        if(i == 0){
+            SDL_SetRenderDrawColor(renderer, 158, 130, 52, SDL_ALPHA_OPAQUE);
+        }else{
+            SDL_SetRenderDrawColor(renderer, 18, 97, 42, SDL_ALPHA_OPAQUE);
+        }
+
+        SDL_RenderFillRect(renderer, &snake.frect);
+    }
+    
 }
 
 bool RumbleGamepad(SDL_Gamepad *gamepad){
@@ -215,15 +229,19 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[]){
     //}
     SDL_Log("RENDERER: %s", SDL_GetRendererName(renderer));
 
-    snake.frect.x = snake.global_pos.x;
-    snake.frect.y = snake.global_pos.y;
+    // snake firsts points
+    for(int i = 0; i > -3; i--){
+        snake.points.push_back(
+            (Vector2){ (float)i , 0.0f }
+        );
+    }
 
-    // Snake Timer stuffs
+    //Snake Timer stuffs
     if(
         (
             SDL_AddTimer(
                 snake.speed, // Uint32 interval, 
-                snake_next_move, // SDL_TimerCallback callback, 
+                snake_next_frame, // SDL_TimerCallback callback, 
                 NULL // void *userdata
             )
         ) == 0
@@ -371,10 +389,6 @@ SDL_AppResult SDL_AppIterate(void *appstate){
     
     // Snake
     snake_update();
-
-    // Drawing player
-    SDL_SetRenderDrawColor(renderer, 255, 255, 255, SDL_ALPHA_OPAQUE);
-    SDL_RenderFillRect(renderer, &snake.frect); // white filled Rect
 
     SDL_RenderPresent(renderer); // show the result
     return SDL_APP_CONTINUE;
