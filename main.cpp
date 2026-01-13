@@ -92,9 +92,9 @@ Vector2 get_global_position(Vector2 world_pos, World world){
     int x = {}, y = {};
     x = world_pos.x * world.WIDTH_CELLS_SIZE;
     y = world_pos.y * world.HEIGHT_CELLS_SIZE;
+
     return (Vector2){x , y};
 }
-
 Vector2 next_world_position(World world, Vector2 orientation, Vector2 world_position){
     std::array<std::array<int, 4>, 2> d = {{
         {world_position.x, Vector2_normalized(orientation).x, world.MAX_COLUMNS_COUNT-1, world.MIN_COLUMNS_COUNT},
@@ -261,7 +261,7 @@ bool RumbleGamepad(SDL_Gamepad *gamepad){
 SDL_Gamepad *OpenGamepad(int *gamepad_index){
    return SDL_OpenGamepad(
         *SDL_GetGamepads(gamepad_index)
-    );
+    );  
 }
 
 
