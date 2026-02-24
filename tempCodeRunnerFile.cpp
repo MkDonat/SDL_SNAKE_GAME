@@ -1,1 +1,1 @@
-SDL_SCANCODE_ESCAPE
+Vector2_normalized

@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named snake
+# Target rules for targets named exec
 
 # Build rule for target.
-snake: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 snake
-.PHONY : snake
+exec: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 exec
+.PHONY : exec
 
 # fast build rule for target.
-snake/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/build
-.PHONY : snake/fast
+exec/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/build
+.PHONY : exec/fast
 
 #=============================================================================
 # Target rules for targets named SDL3-shared
@@ -168,12 +168,25 @@ SDL_uclibc/fast:
 	$(MAKE) $(MAKESILENT) -f SDL/CMakeFiles/SDL_uclibc.dir/build.make SDL/CMakeFiles/SDL_uclibc.dir/build
 .PHONY : SDL_uclibc/fast
 
+#=============================================================================
+# Target rules for targets named engine_libs
+
+# Build rule for target.
+engine_libs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine_libs
+.PHONY : engine_libs
+
+# fast build rule for target.
+engine_libs/fast:
+	$(MAKE) $(MAKESILENT) -f engine/src/CMakeFiles/engine_libs.dir/build.make engine/src/CMakeFiles/engine_libs.dir/build
+.PHONY : engine_libs/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -181,7 +194,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -189,7 +202,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec.dir/build.make CMakeFiles/exec.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -203,7 +216,8 @@ help:
 	@echo "... SDL3-shared"
 	@echo "... SDL3_test"
 	@echo "... SDL_uclibc"
-	@echo "... snake"
+	@echo "... engine_libs"
+	@echo "... exec"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

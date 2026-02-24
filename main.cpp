@@ -6,20 +6,20 @@
 #include <array>
 
 // App Meta-datas stuffs
-const char *appname = "snake\0";
-const char *appversion = "0.0.1\0";
-const char *appidentifier = "game.snake.cm\0";
+const char *appname{"snake\0"};
+const char *appversion{"0.0.1\0"};
+const char *appidentifier{"game.snake.cm\0"};
 
 // Delta Time stuffs
-Uint64 now = SDL_GetPerformanceCounter();
-Uint64 last = 0U;
-double deltaTime = 0.0f;
+Uint64 now{SDL_GetPerformanceCounter()};
+Uint64 last{0U};
+double deltaTime{0.0f};
 
 // Window stuffs
 SDL_Window *window = NULL;
 const char *title = "Snake\0";
-int width = 720U;
-int height = 468U;
+int width = 720; // default: 720U
+int height = 468;// default: 468U
 
 // Renderer stuffs
 SDL_Renderer *renderer = NULL;
@@ -29,8 +29,8 @@ const char *renderer_backend_name = NULL;//"vulkan\0";
 SDL_FRect frect;
 
 // Gamepad stuffs
-SDL_Gamepad *gamepad0 = NULL;
-Sint16 gamepad_axis_leftx = {};
+SDL_Gamepad *gamepad0{NULL};
+Sint16 gamepad_axis_leftx{};
 
 // Math Vector
 typedef struct{
@@ -53,14 +53,14 @@ Vector2 Vector2_normalized(Vector2 v) {
 // World cells stuffs
 struct World{
     int MIN_COLUMNS_COUNT = 0;
-    int MAX_COLUMNS_COUNT;
+    int MAX_COLUMNS_COUNT = 0;
     int MIN_LINES_COUNT = 0;
-    int MAX_LINES_COUNT;
-    int CELLS_PORTION = 5; //5
+    int MAX_LINES_COUNT = 0;
+    int CELLS_PORTION = 5;
     int WIDTH_CELLS_SIZE = 
-        SDL_floorf(width * CELLS_PORTION / 100.0f) ;
+        SDL_floorf(width * CELLS_PORTION / 100.0f);
     int HEIGHT_CELLS_SIZE = 
-        SDL_floorf(WIDTH_CELLS_SIZE * 1.0f);
+        SDL_floorf(height * CELLS_PORTION * 1.5f / 100.0f );
 };
 World world;
 
@@ -89,17 +89,30 @@ BONNUS bonnus;
 
 // Custom functions declaration and implementation
 Vector2 get_global_position(Vector2 world_pos, World world){
-    int x = {}, y = {};
-    x = world_pos.x * world.WIDTH_CELLS_SIZE;
-    y = world_pos.y * world.HEIGHT_CELLS_SIZE;
-
-    return (Vector2){x , y};
+    return (Vector2){
+        world_pos.x * world.WIDTH_CELLS_SIZE 
+        ,
+        world_pos.y * world.HEIGHT_CELLS_SIZE
+    };
 }
-Vector2 next_world_position(World world, Vector2 orientation, Vector2 world_position){
-    std::array<std::array<int, 4>, 2> d = {{
-        {world_position.x, Vector2_normalized(orientation).x, world.MAX_COLUMNS_COUNT-1, world.MIN_COLUMNS_COUNT},
-        {world_position.y, Vector2_normalized(orientation).y, world.MAX_LINES_COUNT-1, world.MIN_LINES_COUNT}
-    }};
+
+Vector2 next_world_position(
+    World world, Vector2 orientation, Vector2 world_position
+)
+{
+    std::array<std::array<int, 4>, 2> d = {
+        {
+            {
+                world_position.x, Vector2_normalized(orientation).x, 
+                world.MAX_COLUMNS_COUNT-1, world.MIN_COLUMNS_COUNT
+            }
+            ,
+            {
+                world_position.y, Vector2_normalized(orientation).y, 
+                world.MAX_LINES_COUNT-1, world.MIN_LINES_COUNT
+            }  
+        }
+    };
      
     for (int i = 0; i < 2; ++i){
         if(d[i][1] != 0.0f){ // if orientation.x/y != 0.0f
@@ -126,12 +139,14 @@ Vector2 next_world_position(World world, Vector2 orientation, Vector2 world_posi
     return (Vector2){d[0][0], d[1][0]};
 }
 
-Uint32 bonnus_next_pop(void *userdata, SDL_TimerID timerID, Uint32 interval){
-
+Uint32 bonnus_next_pop(
+    void *userdata, SDL_TimerID timerID, Uint32 interval
+)
+{
     // setting limits
     int bonnus_max_col = world.MAX_COLUMNS_COUNT;// - 1;
     int bonnus_max_li = world.MAX_LINES_COUNT ;//- 1;
-    // checking bonnus nomber
+    // checking bonnus number
     if(bonnus.points.size() < bonnus.MAX_COUNT){
         // adding a random point
         bonnus.points.push_back(
@@ -155,25 +170,25 @@ void snake_add_points(int nbr){
     }
 }
 
-void bonnus_update(){
-
+void render_bonnus(){
     // Drawing all bonnus points
     for(size_t i = 0; i < bonnus.points.size(); i++){
         frect.x = get_global_position(bonnus.points[i], world).x;
         frect.y = get_global_position(bonnus.points[i], world).y;
-        SDL_SetRenderDrawColor(renderer, bonnus.r, bonnus.g, bonnus.b, 255);
+        SDL_SetRenderDrawColor(
+            renderer, bonnus.r, bonnus.g, bonnus.b, 255
+        );
         SDL_RenderFillRect(renderer, &frect);
     }
 }
 
 void snake_ckeck_autobite(){
-    // Snake - check auto-bite
     for(size_t i = 1; i < snake.points.size(); i++){
         if(
             (snake.points[0].x == snake.points[i].x) &&
             (snake.points[0].y == snake.points[i].y) 
-        ){ // auto-bite detected
-            SDL_Log("Auto-bite detected\n");
+        ){
+            //SDL_Log("Auto-bite detected\n");
             snake.points.clear();
             snake_add_points(3);
             snake.orientation = (Vector2){1.0f, 0.0f};
@@ -182,18 +197,19 @@ void snake_ckeck_autobite(){
     }
 }
 
-Uint32 snake_next_frame(void *userdata, SDL_TimerID timerID, Uint32 interval){
+Uint32 snake_next_frame(
+    void *userdata, SDL_TimerID timerID, Uint32 interval
+)
+{
     Snake* snake = (Snake *)userdata;
     const Vector2 ORIENTATION = snake->orientation;
     Vector2 point_to_add = {};
     // for each snake point
     for(int i = (int)snake->points.size()-1; i >= 0; i--){
-
         if(snake->there_is_a_point_to_add){
             point_to_add.x = snake->points[i].x;
             point_to_add.y = snake->points[i].y;
         }
-
         if(i == 0){ // snake head point
             snake->points[i].x = next_world_position(world, ORIENTATION, snake->points[i]).x;
             snake->points[i].y = next_world_position(world, ORIENTATION, snake->points[i]).y;
@@ -201,7 +217,6 @@ Uint32 snake_next_frame(void *userdata, SDL_TimerID timerID, Uint32 interval){
             snake->points[i].x = snake->points[i-1].x;
             snake->points[i].y = snake->points[i-1].y;
         }
-
         if(snake->there_is_a_point_to_add){
             snake->points.push_back(
                 point_to_add
@@ -216,8 +231,7 @@ Uint32 snake_next_frame(void *userdata, SDL_TimerID timerID, Uint32 interval){
     return interval;
 }
 
-void snake_update(){
-    
+void render_snake(){
     // we get the global position to a frect for drawing
     for(size_t i = 0; i < snake.points.size(); i++){
         
@@ -225,17 +239,21 @@ void snake_update(){
         frect.y = get_global_position(snake.points[i], world).y;
         
         if(i == 0){
-            SDL_SetRenderDrawColor(renderer, 158, 130, 52, SDL_ALPHA_OPAQUE);
+            SDL_SetRenderDrawColor(
+                renderer, 158, 130, 52, SDL_ALPHA_OPAQUE);
         }else{
-            SDL_SetRenderDrawColor(renderer, 18, 97, 42, SDL_ALPHA_OPAQUE);
+            SDL_SetRenderDrawColor(
+                renderer, 18, 97, 42, SDL_ALPHA_OPAQUE);
         }
 
         SDL_RenderFillRect(renderer, &frect);
     }
-    
 }
 
-int there_is_a_match_point_between(std::vector<Vector2>va, std::vector<Vector2>vb){
+int there_is_a_match_point_between(
+    std::vector<Vector2>va, std::vector<Vector2>vb
+)
+{
     for(size_t i = 0; i < va.size(); i++){
         for(size_t j = 0; j < vb.size(); j++){
             if(
@@ -264,9 +282,26 @@ SDL_Gamepad *OpenGamepad(int *gamepad_index){
     );  
 }
 
+bool erase_from_collection(auto collection, auto value){
+    auto pseudo_end_ite{
+        std::remove(
+            std::begin(collection), 
+            std::end(collection), 
+            value
+        )
+    };
+    collection.erase(pseudo_end_ite,std::end(collection));
+    return true;
+}
+
 
 SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[]){
 
+    // SDL_Log("RENDERERS LIST:");
+    // for(int i = 0; i<=SDL_GetNumRenderDrivers()-1; i++){
+    //     SDL_Log("%d- %s",i,SDL_GetRenderDriver(i));
+    // }
+    
     if(
         SDL_Init(SDL_INIT_VIDEO) == true
     ){
@@ -294,6 +329,24 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[]){
 		SDL_SetError("SET METADATA FAILED: %s", SDL_GetError());
 	}
 
+    //Window initial ratio
+    auto w_ini_ratio{(width/height)};
+    // Getting columns count
+    world.MAX_COLUMNS_COUNT = {
+        (int)SDL_floorf(width / world.WIDTH_CELLS_SIZE)
+    };
+    world.MAX_LINES_COUNT = {
+        (int)SDL_floorf(height/ world.HEIGHT_CELLS_SIZE)
+    };
+    // Re-calculation window size 
+    width = world.MAX_COLUMNS_COUNT * world.WIDTH_CELLS_SIZE;
+    height = world.MAX_COLUMNS_COUNT * world.HEIGHT_CELLS_SIZE;
+    // Window final ratio
+    auto w_fi_ratio{width/height};
+
+    SDL_Log("init ratio: %.2f, final ratio: %.2f",
+        w_ini_ratio, w_fi_ratio);
+
     window = SDL_CreateWindow(
         title,
         width,
@@ -306,9 +359,6 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[]){
     }else{
         SDL_SetError("WINDOW CREATION FAILED: %s", SDL_GetError());
     }
-    // Window first update
-    world.MAX_COLUMNS_COUNT = SDL_floorf(width / world.WIDTH_CELLS_SIZE) - 0U;
-    world.MAX_LINES_COUNT = SDL_floorf(height / world.HEIGHT_CELLS_SIZE) - 0U;
 
     renderer = SDL_CreateRenderer(
         window,//SDL_Window *window,
@@ -319,11 +369,7 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[]){
     }else{
         SDL_SetError("RENDERER CREATION FAILLED: %s", SDL_GetError());
     }
-
-    //SDL_Log("Available renderer drivers:");
-    //for (int i = 0; i < SDL_GetNumRenderDrivers(); i++) {
-    //    SDL_Log("%d. %s", i + 1, SDL_GetRenderDriver(i));
-    //}
+    // Current Backend
     SDL_Log("RENDERER: %s", SDL_GetRendererName(renderer));
 
     // snake firsts points
@@ -349,7 +395,10 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[]){
             )
         ) == 0
     ){
-        SDL_SetError("ADD SNAKE NEXT FRAME TIMER FAILED: %s", SDL_GetError());
+        SDL_SetError(
+            "ADD SNAKE NEXT FRAME TIMER FAILED: %s", 
+            SDL_GetError()
+        );
     }
 
      // Bonnus point popping timer init
@@ -358,7 +407,7 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[]){
             SDL_AddTimer(
                 bonnus.POP_PERIOD, // Uint32 interval, 
                 bonnus_next_pop, // SDL_TimerCallback callback, 
-                &bonnus//NULL // void *userdata
+                &bonnus // void *userdata
             )
         ) == 0
     ){
@@ -475,7 +524,6 @@ SDL_AppResult SDL_AppEvent(void *appstate, SDL_Event *event){
         default:
             break;
     }
-    
 
 	return SDL_APP_CONTINUE;
 }
@@ -532,11 +580,11 @@ SDL_AppResult SDL_AppIterate(void *appstate){
     frect.h = world.HEIGHT_CELLS_SIZE * snake.size_scale_h;
 
     // Snake
-    snake_update();
+    render_snake();
 
     // Bonnus
-    bonnus_update();
-    // Check match point to erase
+    render_bonnus();
+    // Check if bonnus was taken by snake
     int match_index = there_is_a_match_point_between(
         bonnus.points, snake.points
     );
@@ -544,7 +592,10 @@ SDL_AppResult SDL_AppIterate(void *appstate){
         match_index >= 0
     ){
         // erase bonnus point
-        bonnus.points.erase(bonnus.points.begin() + match_index);
+        erase_from_collection(
+            bonnus.points,
+            bonnus.points[match_index]
+        );
         // add a snake point
         snake.there_is_a_point_to_add = true;
     }

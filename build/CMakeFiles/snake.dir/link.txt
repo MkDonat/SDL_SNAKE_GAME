@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/snake.dir/main.cpp.o -o snake  -Wl,-rpath,/home/martial/Documents/SDL_SNAKE_GAME/build libSDL3.so.0.2.24 

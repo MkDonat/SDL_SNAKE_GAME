@@ -15,8 +15,11 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/$<CONFIGURATION>")
 # This assumes the SDL source is available in vendored/SDL
 add_subdirectory(SDL EXCLUDE_FROM_ALL)
 
+# Adding engine sub dir
+add_subdirectory(engine)
+
 # Create your game executable target as usual
-add_executable(snake WIN32 main.cpp)
+add_executable(exec WIN32 main.cpp)
 
 # Link to the actual SDL3 library.
-target_link_libraries(snake PRIVATE SDL3::SDL3)
+target_link_libraries(exec PRIVATE SDL3::SDL3)
