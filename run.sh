@@ -1,6 +1,8 @@
+# Create folders
+mkdir -p build/linux
 # Configure Make
-cmake -S . -B build
+cmake -S . -B build/linux/
 # Build
-cmake --build build
+cmake --build build/linux/
 # Run
-cd build && ./exec
+cd build/linux/ && ./exec

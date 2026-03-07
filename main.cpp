@@ -4,6 +4,8 @@
 #include <SDL3/SDL_timer.h>
 #include <vector>
 #include <array>
+#include <algorithm>
+#include <cmath>
 
 // App Meta-datas stuffs
 const char *appname{"snake\0"};
@@ -18,8 +20,8 @@ double deltaTime{0.0f};
 // Window stuffs
 SDL_Window *window = NULL;
 const char *title = "Snake\0";
-int width = 720; // default: 720U
-int height = 468;// default: 468U
+int width = 960; // default: 720U - psvita: 960
+int height = 544;// default: 468U - psvita: 544
 
 // Renderer stuffs
 SDL_Renderer *renderer = NULL;
@@ -32,22 +34,17 @@ SDL_FRect frect;
 SDL_Gamepad *gamepad0{NULL};
 Sint16 gamepad_axis_leftx{};
 
-// Math Vector
-typedef struct{
-    float x;
-    float y;
-}Vector2;
-
-Vector2 Vector2_normalized(Vector2 v) {
+// SDL_FPoint custom function          
+SDL_FPoint Vector2_normalized(SDL_FPoint v) {
     float l = v.x * v.x + v.y * v.y;
 	if (l != 0) {
 		l = SDL_sqrtf(l);
-        return (Vector2){
+        return (SDL_FPoint){
             v.x /= l,
 		    v.y /= l
         };
 	}
-    else return (Vector2){0.0f,0.0f};
+    else return (SDL_FPoint){0.0f,0.0f};
 }
 
 // World cells stuffs
@@ -58,18 +55,18 @@ struct World{
     int MAX_LINES_COUNT = 0;
     int CELLS_PORTION = 5;
     int WIDTH_CELLS_SIZE = 
-        SDL_floorf(width * CELLS_PORTION / 100.0f);
+        (int)SDL_floorf((float)width * (float)CELLS_PORTION / 100.0f);
     int HEIGHT_CELLS_SIZE = 
-        SDL_floorf(height * CELLS_PORTION * 1.5f / 100.0f );
+        (int)SDL_floorf((float)height * (float)CELLS_PORTION * 1.5f / 100.0f );
 };
 World world;
 
 // Snake stuffs - WASD config
 struct Snake{
-    std::vector <Vector2> points;
+    std::vector <SDL_FPoint> points;
     uint32_t speed = 150; // 150
-    Vector2 direction = {0.0f , 0.0f};
-    Vector2 orientation = {1.0f , 0.0f};
+    SDL_FPoint direction = {0.0f , 0.0f};
+    SDL_FPoint orientation = {1.0f , 0.0f};
     float size_scale_w = 1.0f;
     float size_scale_h = 1.0f;
     bool there_is_a_point_to_add = false;
@@ -78,7 +75,7 @@ struct Snake{
 Snake snake;
 
 struct BONNUS{
-    std::vector<Vector2>points;
+    std::vector<SDL_FPoint>points;
     uint8_t r = 38;
     uint8_t g = 65;
     uint8_t b = 153;
@@ -88,28 +85,28 @@ struct BONNUS{
 BONNUS bonnus;
 
 // Custom functions declaration and implementation
-Vector2 get_global_position(Vector2 world_pos, World world){
-    return (Vector2){
+SDL_FPoint get_global_position(SDL_FPoint world_pos, World world){
+    return (SDL_FPoint){
         world_pos.x * world.WIDTH_CELLS_SIZE 
         ,
         world_pos.y * world.HEIGHT_CELLS_SIZE
     };
 }
 
-Vector2 next_world_position(
-    World world, Vector2 orientation, Vector2 world_position
+SDL_FPoint next_world_position(
+    World world, SDL_FPoint orientation, SDL_FPoint world_position
 )
 {
-    std::array<std::array<int, 4>, 2> d = {
+    std::array<std::array<float, 4>, 2> d = {
         {
             {
                 world_position.x, Vector2_normalized(orientation).x, 
-                world.MAX_COLUMNS_COUNT-1, world.MIN_COLUMNS_COUNT
+                (float)world.MAX_COLUMNS_COUNT-1.0f, (float)world.MIN_COLUMNS_COUNT
             }
             ,
             {
                 world_position.y, Vector2_normalized(orientation).y, 
-                world.MAX_LINES_COUNT-1, world.MIN_LINES_COUNT
+                (float)world.MAX_LINES_COUNT-1.0f, (float)world.MIN_LINES_COUNT
             }  
         }
     };
@@ -136,7 +133,7 @@ Vector2 next_world_position(
             }
         }
     }
-    return (Vector2){d[0][0], d[1][0]};
+    return (SDL_FPoint){d[0][0], d[1][0]};
 }
 
 Uint32 bonnus_next_pop(
@@ -150,9 +147,9 @@ Uint32 bonnus_next_pop(
     if(bonnus.points.size() < bonnus.MAX_COUNT){
         // adding a random point
         bonnus.points.push_back(
-            (Vector2){
-                SDL_rand(bonnus_max_col),
-                SDL_rand(bonnus_max_li)
+            (SDL_FPoint){
+                (float)SDL_rand(bonnus_max_col),
+                (float)SDL_rand(bonnus_max_li)
             }
         );
     }
@@ -165,7 +162,7 @@ void snake_add_points(int nbr){
     // snake firsts points
     for(int i = nbr; i > 0; i--){
         snake.points.push_back(
-            (Vector2){ (float)i , 0.0f }
+            (SDL_FPoint){ (float)i , 0.0f }
         );
     }
 }
@@ -191,7 +188,7 @@ void snake_ckeck_autobite(){
             //SDL_Log("Auto-bite detected\n");
             snake.points.clear();
             snake_add_points(3);
-            snake.orientation = (Vector2){1.0f, 0.0f};
+            snake.orientation = (SDL_FPoint){1.0f, 0.0f};
             break;
         }
     }
@@ -202,10 +199,10 @@ Uint32 snake_next_frame(
 )
 {
     Snake* snake = (Snake *)userdata;
-    const Vector2 ORIENTATION = snake->orientation;
-    Vector2 point_to_add = {};
+    const SDL_FPoint ORIENTATION = snake->orientation;
+    SDL_FPoint point_to_add = {};
     // for each snake point
-    for(int i = (int)snake->points.size()-1; i >= 0; i--){
+    for(int i = std::size(snake->points)-1; i >= 0; i--){
         if(snake->there_is_a_point_to_add){
             point_to_add.x = snake->points[i].x;
             point_to_add.y = snake->points[i].y;
@@ -251,7 +248,7 @@ void render_snake(){
 }
 
 int there_is_a_match_point_between(
-    std::vector<Vector2>va, std::vector<Vector2>vb
+    std::vector<SDL_FPoint>va, std::vector<SDL_FPoint>vb
 )
 {
     for(size_t i = 0; i < va.size(); i++){
@@ -282,16 +279,28 @@ SDL_Gamepad *OpenGamepad(int *gamepad_index){
     );  
 }
 
-bool erase_from_collection(auto collection, auto value){
-    auto pseudo_end_ite{
-        std::remove(
-            std::begin(collection), 
+bool erase_from_collection(auto &collection, auto &p){
+    constexpr float epsilon = 1e-04f;
+    auto new_end{
+        std::remove_if(
+            std::begin(collection),
             std::end(collection), 
-            value
+            [&](const auto &e){
+                if(
+                    std::fabs(e.x-p.x)<epsilon &&
+                    std::fabs(e.y-p.y)<epsilon
+                ){
+                    return true;
+                }
+                else return false;
+            }
         )
     };
-    collection.erase(pseudo_end_ite,std::end(collection));
-    return true;
+    bool result{
+        new_end!=std::end(collection)
+    };
+    collection.erase(new_end,std::end(collection));
+    return result;
 }
 
 
@@ -301,6 +310,13 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[]){
     // for(int i = 0; i<=SDL_GetNumRenderDrivers()-1; i++){
     //     SDL_Log("%d- %s",i,SDL_GetRenderDriver(i));
     // }
+
+    // PS VITA STUFFS
+    SDL_SetHint(SDL_HINT_VITA_RESOLUTION, "720");
+    SDL_SetHint(SDL_HINT_VITA_PVR_OPENGL, "1");
+    SDL_SetHint(SDL_HINT_TOUCH_MOUSE_EVENTS, "0");
+    SDL_SetHint(SDL_HINT_VITA_ENABLE_FRONT_TOUCH, "0");
+    SDL_SetHint(SDL_HINT_VITA_ENABLE_BACK_TOUCH, "0");
     
     if(
         SDL_Init(SDL_INIT_VIDEO) == true
@@ -330,23 +346,25 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[]){
 	}
 
     //Window initial ratio
-    auto w_ini_ratio{(width/height)};
+    float w_ini_ratio{(float)width/(float)height};
     // Getting columns count
     world.MAX_COLUMNS_COUNT = {
-        (int)SDL_floorf(width / world.WIDTH_CELLS_SIZE)
+        (int)SDL_floorf(width) / world.WIDTH_CELLS_SIZE
     };
     world.MAX_LINES_COUNT = {
-        (int)SDL_floorf(height/ world.HEIGHT_CELLS_SIZE)
+        (int)SDL_floorf(height) / world.HEIGHT_CELLS_SIZE
     };
     // Re-calculation window size 
     width = world.MAX_COLUMNS_COUNT * world.WIDTH_CELLS_SIZE;
-    height = world.MAX_COLUMNS_COUNT * world.HEIGHT_CELLS_SIZE;
+    height = world.MAX_LINES_COUNT * world.HEIGHT_CELLS_SIZE;
     // Window final ratio
-    auto w_fi_ratio{width/height};
-
-    SDL_Log("init ratio: %.2f, final ratio: %.2f",
-        w_ini_ratio, w_fi_ratio);
-
+    float w_fi_ratio{(float)width/(float)height};
+    SDL_Log(
+        "init ratio: %.2f, final ratio: %.2f, columns: %d, lines: %d",
+        w_ini_ratio, w_fi_ratio,
+        world.MAX_COLUMNS_COUNT, world.MAX_LINES_COUNT
+    );
+    // Create window
     window = SDL_CreateWindow(
         title,
         width,
@@ -378,9 +396,9 @@ SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[]){
     //firsts Bonnus points
     for(int i = 0; i < 2; i++){
         bonnus.points.push_back(
-            (Vector2){
-                SDL_rand(world.MIN_COLUMNS_COUNT),
-                SDL_rand(world.MAX_LINES_COUNT)
+            (SDL_FPoint){
+                (float)SDL_rand(world.MIN_COLUMNS_COUNT),
+                (float)SDL_rand(world.MAX_LINES_COUNT)
             }
         );
     }
@@ -432,24 +450,71 @@ SDL_AppResult SDL_AppEvent(void *appstate, SDL_Event *event){
             }else{
                 SDL_SetError("GAMEPAD OPEN FAILLED: %s", SDL_GetError());
             }
-
-            if(
-                RumbleGamepad(gamepad0) == true
-            ){
-                SDL_Log("RUMBLE GAMEPAD: PASS");
-            }else{
-                SDL_SetError("RUMBLE GAMEPAD FAILLED: %s", SDL_GetError());
-            }
-            break;
-        case SDL_EVENT_GAMEPAD_AXIS_MOTION:
-            gamepad_axis_leftx = SDL_GetGamepadAxis(
-                gamepad0, //SDL_Gamepad *gamepad
-                SDL_GAMEPAD_AXIS_LEFTX //SDL_GamepadAxis axis
-            );
-            SDL_Log("AXIS LEFT X: %i", gamepad_axis_leftx);
             break;
         case SDL_EVENT_GAMEPAD_REMOVED:
             SDL_Log("GAMEPAD REMOVED");
+            break;
+        case SDL_EVENT_GAMEPAD_BUTTON_DOWN:
+            if(
+                event->gbutton.button == SDL_GAMEPAD_BUTTON_DPAD_UP &&
+                *orentationFlag
+            ){
+                //SDL_Log("W");
+                if(snake.orientation.y == 0.0f){
+                    snake.orientation.y = -1.0f;
+                }
+                snake.orientation.x = 0.0f;
+                *orentationFlag = false;
+            }else if(
+                event->gbutton.button == SDL_GAMEPAD_BUTTON_DPAD_DOWN &&
+                *orentationFlag                
+            ){
+                //SDL_Log("S");
+                if(snake.orientation.y == 0.0f){
+                    snake.orientation.y = 1.0f;
+                }
+                snake.orientation.x = 0.0f;
+                *orentationFlag = false;
+            }else if(
+                event->gbutton.button == SDL_GAMEPAD_BUTTON_DPAD_LEFT &&
+                *orentationFlag
+            ){
+                //SDL_Log("A");
+                if(snake.orientation.x == 0.0f){
+                    snake.orientation.x = -1.0f;
+                }
+                snake.orientation.y = 0.0f;
+                *orentationFlag = false;
+            }else if(
+                event->gbutton.button == SDL_GAMEPAD_BUTTON_DPAD_RIGHT &&
+                *orentationFlag
+            ){
+                //SDL_Log("D");
+                if(snake.orientation.x == 0.0f){
+                    snake.orientation.x = 1.0f;
+                }
+                snake.orientation.y = 0.0f;
+                *orentationFlag = false;
+            };
+            break;
+        case SDL_EVENT_GAMEPAD_BUTTON_UP:
+            if(
+                event->gbutton.button == SDL_GAMEPAD_BUTTON_DPAD_DOWN ||
+                event->gbutton.button == SDL_GAMEPAD_BUTTON_DPAD_UP
+            ){
+                snake.direction.y = 0.0f;
+            };
+            if(
+                event->gbutton.button == SDL_GAMEPAD_BUTTON_DPAD_LEFT ||
+                event->gbutton.button == SDL_GAMEPAD_BUTTON_DPAD_RIGHT
+            ){
+                snake.direction.x = 0.0f;
+            };
+            if(
+                event->gbutton.button == SDL_GAMEPAD_BUTTON_START
+            ){
+                return SDL_APP_SUCCESS;
+            }
             break;
         case SDL_EVENT_KEY_DOWN:
             if(
@@ -589,7 +654,7 @@ SDL_AppResult SDL_AppIterate(void *appstate){
         bonnus.points, snake.points
     );
     if(
-        match_index >= 0
+        match_index >= 0 
     ){
         // erase bonnus point
         erase_from_collection(

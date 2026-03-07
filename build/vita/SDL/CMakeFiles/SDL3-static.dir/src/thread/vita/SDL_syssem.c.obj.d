@@ -1,0 +1,26 @@
+SDL/CMakeFiles/SDL3-static.dir/src/thread/vita/SDL_syssem.c.obj: \
+ /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/thread/vita/SDL_syssem.c \
+ /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/stdio.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/stdlib.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2/types.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2common/types.h \
+ /usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include/stddef.h \
+ /usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include/stdint.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/vitasdk/build_utils.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/error.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/threadmgr.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/threadmgr/callback.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2common/kernel/threadmgr.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/threadmgr/cond.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/threadmgr/eventflag.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/threadmgr/lw_cond.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/threadmgr/lw_mutex.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/threadmgr/msgpipe.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/threadmgr/mutex.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/threadmgr/rwlock.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/threadmgr/semaphore.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/threadmgr/signal.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/threadmgr/thread.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/cpu.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/threadmgr/vfp.h

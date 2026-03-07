@@ -1,0 +1,27 @@
+SDL/CMakeFiles/SDL3-static.dir/src/time/vita/SDL_systime.c.obj: \
+ /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/time/vita/SDL_systime.c \
+ /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/time/vita/../SDL_time_c.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2/apputil.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/vitasdk/build_utils.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2/types.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2common/types.h \
+ /usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include/stddef.h \
+ /usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include/stdint.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2/rtc.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2common/kernel/rtc.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/time.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/_ansi.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/cdefs.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/reent.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/machine/time.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/types.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/timespec.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/_locale.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/features.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/signal.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/signal.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/_ansi.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/_sigset.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/_timespec.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/psp2/system_param.h
