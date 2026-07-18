@@ -1,8 +1,8 @@
 SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.o: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/core/linux/SDL_udev.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/core/linux/SDL_udev.c \
  /usr/include/stdc-predef.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/core/linux/SDL_udev.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/core/linux/SDL_udev.h \
  /usr/include/libudev.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -37,5 +37,5 @@ SDL/CMakeFiles/SDL3-shared.dir/src/core/linux/SDL_udev.c.o: \
  /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/core/linux/SDL_evdev_capabilities.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/core/linux/../unix/SDL_poll.h
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/core/linux/SDL_evdev_capabilities.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/core/linux/../unix/SDL_poll.h

@@ -1,6 +1,6 @@
 SDL/CMakeFiles/SDL3-static.dir/src/joystick/vita/SDL_sysjoystick.c.obj: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/joystick/vita/SDL_sysjoystick.c \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/joystick/vita/SDL_sysjoystick.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/types.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2common/types.h \
  /usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include/stddef.h \
@@ -25,6 +25,6 @@ SDL/CMakeFiles/SDL3-static.dir/src/joystick/vita/SDL_sysjoystick.c.obj: \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/threadmgr/vfp.h \
  /usr/local/vitasdk/arm-vita-eabi/include/stdio.h \
  /usr/local/vitasdk/arm-vita-eabi/include/stdlib.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/joystick/vita/../SDL_sysjoystick.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/joystick/vita/../SDL_joystick_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/joystick/vita/../SDL_joystick_c.h
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/joystick/vita/../SDL_sysjoystick.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/joystick/vita/../SDL_joystick_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/joystick/vita/../SDL_joystick_c.h

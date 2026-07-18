@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/martial/Documents/SDL_SNAKE_GAME
+CMAKE_SOURCE_DIR = /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/martial/Documents/SDL_SNAKE_GAME/build/linux
+CMAKE_BINARY_DIR = /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/linux && $(CMAKE_COMMAND) -E cmake_progress_start /home/martial/Documents/SDL_SNAKE_GAME/build/linux/CMakeFiles /home/martial/Documents/SDL_SNAKE_GAME/build/linux/engine/src//CMakeFiles/progress.marks
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/martial/Documents/SDL_SNAKE_GAME/build/linux/CMakeFiles 0
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux && $(CMAKE_COMMAND) -E cmake_progress_start /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux/CMakeFiles /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux/engine/src//CMakeFiles/progress.marks
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/src/clean
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/src/preinstall
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/src/preinstall
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/linux && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/src/CMakeFiles/engine_libs.dir/rule:
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/src/CMakeFiles/engine_libs.dir/rule
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/src/CMakeFiles/engine_libs.dir/rule
 .PHONY : engine/src/CMakeFiles/engine_libs.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ engine_libs: engine/src/CMakeFiles/engine_libs.dir/rule
 
 # fast build rule for target.
 engine_libs/fast:
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f engine/src/CMakeFiles/engine_libs.dir/build.make engine/src/CMakeFiles/engine_libs.dir/build
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f engine/src/CMakeFiles/engine_libs.dir/build.make engine/src/CMakeFiles/engine_libs.dir/build
 .PHONY : engine_libs/fast
 
 collectable.o: collectable.cpp.o
@@ -135,7 +135,7 @@ collectable.o: collectable.cpp.o
 
 # target to build an object file
 collectable.cpp.o:
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f engine/src/CMakeFiles/engine_libs.dir/build.make engine/src/CMakeFiles/engine_libs.dir/collectable.cpp.o
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f engine/src/CMakeFiles/engine_libs.dir/build.make engine/src/CMakeFiles/engine_libs.dir/collectable.cpp.o
 .PHONY : collectable.cpp.o
 
 collectable.i: collectable.cpp.i
@@ -143,7 +143,7 @@ collectable.i: collectable.cpp.i
 
 # target to preprocess a source file
 collectable.cpp.i:
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f engine/src/CMakeFiles/engine_libs.dir/build.make engine/src/CMakeFiles/engine_libs.dir/collectable.cpp.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f engine/src/CMakeFiles/engine_libs.dir/build.make engine/src/CMakeFiles/engine_libs.dir/collectable.cpp.i
 .PHONY : collectable.cpp.i
 
 collectable.s: collectable.cpp.s
@@ -151,7 +151,7 @@ collectable.s: collectable.cpp.s
 
 # target to generate assembly for a file
 collectable.cpp.s:
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f engine/src/CMakeFiles/engine_libs.dir/build.make engine/src/CMakeFiles/engine_libs.dir/collectable.cpp.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f engine/src/CMakeFiles/engine_libs.dir/build.make engine/src/CMakeFiles/engine_libs.dir/collectable.cpp.s
 .PHONY : collectable.cpp.s
 
 world.o: world.cpp.o
@@ -159,7 +159,7 @@ world.o: world.cpp.o
 
 # target to build an object file
 world.cpp.o:
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f engine/src/CMakeFiles/engine_libs.dir/build.make engine/src/CMakeFiles/engine_libs.dir/world.cpp.o
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f engine/src/CMakeFiles/engine_libs.dir/build.make engine/src/CMakeFiles/engine_libs.dir/world.cpp.o
 .PHONY : world.cpp.o
 
 world.i: world.cpp.i
@@ -167,7 +167,7 @@ world.i: world.cpp.i
 
 # target to preprocess a source file
 world.cpp.i:
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f engine/src/CMakeFiles/engine_libs.dir/build.make engine/src/CMakeFiles/engine_libs.dir/world.cpp.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f engine/src/CMakeFiles/engine_libs.dir/build.make engine/src/CMakeFiles/engine_libs.dir/world.cpp.i
 .PHONY : world.cpp.i
 
 world.s: world.cpp.s
@@ -175,7 +175,7 @@ world.s: world.cpp.s
 
 # target to generate assembly for a file
 world.cpp.s:
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f engine/src/CMakeFiles/engine_libs.dir/build.make engine/src/CMakeFiles/engine_libs.dir/world.cpp.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux && $(MAKE) $(MAKESILENT) -f engine/src/CMakeFiles/engine_libs.dir/build.make engine/src/CMakeFiles/engine_libs.dir/world.cpp.s
 .PHONY : world.cpp.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/linux && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

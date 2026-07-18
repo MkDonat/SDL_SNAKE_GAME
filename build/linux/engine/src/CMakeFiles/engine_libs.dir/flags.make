@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/martial/Documents/SDL_SNAKE_GAME/engine/inc/. -I/home/martial/Documents/SDL_SNAKE_GAME/build/linux/SDL/include-revision -I/home/martial/Documents/SDL_SNAKE_GAME/SDL/include
+CXX_INCLUDES = -I/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/engine/inc/. -I/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux/SDL/include-revision -I/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include
 
 CXX_FLAGS = -std=gnu++20
 

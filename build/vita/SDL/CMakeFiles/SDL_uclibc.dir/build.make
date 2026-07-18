@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/martial/Documents/SDL_SNAKE_GAME
+CMAKE_SOURCE_DIR = /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/martial/Documents/SDL_SNAKE_GAME/build/vita
+CMAKE_BINARY_DIR = /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita
 
 # Include any dependencies generated for this target.
 include SDL/CMakeFiles/SDL_uclibc.dir/depend.make
@@ -70,354 +70,354 @@ include SDL/CMakeFiles/SDL_uclibc.dir/progress.make
 include SDL/CMakeFiles/SDL_uclibc.dir/flags.make
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_atan2.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_atan2.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_atan2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_atan2.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_atan2.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_atan2.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_atan2.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_atan2.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_exp.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_exp.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_exp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_exp.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_exp.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_exp.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_exp.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_exp.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_exp.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_fmod.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_fmod.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_fmod.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_fmod.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_fmod.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_fmod.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_fmod.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_fmod.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_fmod.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_log.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_log.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_log.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_log.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_log.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_log.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_log.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_log.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_log10.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_log10.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_log10.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_log10.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_log10.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_log10.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_log10.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_log10.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_log10.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_pow.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_pow.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_pow.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_pow.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_pow.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_pow.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_pow.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_pow.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_pow.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_rem_pio2.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_rem_pio2.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_rem_pio2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_rem_pio2.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_rem_pio2.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_rem_pio2.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_rem_pio2.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_rem_pio2.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_rem_pio2.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_sqrt.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_sqrt.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_sqrt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_sqrt.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_sqrt.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_sqrt.c > CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/e_sqrt.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/e_sqrt.c -o CMakeFiles/SDL_uclibc.dir/src/libm/e_sqrt.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/k_cos.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/k_cos.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/k_cos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/k_cos.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/k_cos.c > CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/k_cos.c > CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/k_cos.c -o CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/k_cos.c -o CMakeFiles/SDL_uclibc.dir/src/libm/k_cos.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/k_rem_pio2.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/k_rem_pio2.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/k_rem_pio2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/k_rem_pio2.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/k_rem_pio2.c > CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/k_rem_pio2.c > CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/k_rem_pio2.c -o CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/k_rem_pio2.c -o CMakeFiles/SDL_uclibc.dir/src/libm/k_rem_pio2.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/k_sin.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/k_sin.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/k_sin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/k_sin.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/k_sin.c > CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/k_sin.c > CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/k_sin.c -o CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/k_sin.c -o CMakeFiles/SDL_uclibc.dir/src/libm/k_sin.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/k_tan.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/k_tan.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/k_tan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/k_tan.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/k_tan.c > CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/k_tan.c > CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/k_tan.c -o CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/k_tan.c -o CMakeFiles/SDL_uclibc.dir/src/libm/k_tan.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_atan.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_atan.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_atan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_atan.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_atan.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_atan.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_atan.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_atan.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_atan.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_copysign.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_copysign.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_copysign.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_copysign.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_copysign.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_copysign.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_copysign.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_copysign.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_cos.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_cos.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_cos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_cos.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_cos.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_cos.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_cos.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_cos.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_cos.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_fabs.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_fabs.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_fabs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_fabs.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_fabs.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_fabs.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_fabs.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_fabs.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_fabs.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_floor.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_floor.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_floor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_floor.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_floor.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_floor.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_floor.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_floor.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_floor.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_isinf.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_isinf.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_isinf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_isinf.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_isinf.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_isinf.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_isinf.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_isinf.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isinf.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_isinff.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_isinff.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_isinff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_isinff.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_isinff.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_isinff.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_isinff.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_isinff.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isinff.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_isnan.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_isnan.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_isnan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_isnan.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_isnan.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_isnan.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_isnan.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_isnan.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isnan.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_isnanf.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_isnanf.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_isnanf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_isnanf.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_isnanf.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_isnanf.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_isnanf.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_isnanf.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_isnanf.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_modf.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_modf.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_modf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_modf.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_modf.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_modf.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_modf.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_modf.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_modf.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_scalbn.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_scalbn.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_scalbn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_scalbn.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_scalbn.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_scalbn.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_scalbn.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_scalbn.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_scalbn.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_sin.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_sin.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_sin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_sin.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_sin.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_sin.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_sin.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_sin.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.s
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/flags.make
-SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.obj: /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_tan.c
+SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_tan.c
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.obj: SDL/CMakeFiles/SDL_uclibc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.obj -c /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_tan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.obj -MF CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.obj.d -o CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_tan.c
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_tan.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_tan.c > CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.i
 
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_tan.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && /usr/local/vitasdk/bin/arm-vita-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_tan.c -o CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.s
 
 # Object files for target SDL_uclibc
 SDL_uclibc_OBJECTS = \
@@ -477,19 +477,19 @@ SDL/libSDL_uclibc.a: SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_sin.c.obj
 SDL/libSDL_uclibc.a: SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_tan.c.obj
 SDL/libSDL_uclibc.a: SDL/CMakeFiles/SDL_uclibc.dir/build.make
 SDL/libSDL_uclibc.a: SDL/CMakeFiles/SDL_uclibc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C static library libSDL_uclibc.a"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && $(CMAKE_COMMAND) -P CMakeFiles/SDL_uclibc.dir/cmake_clean_target.cmake
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL_uclibc.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking C static library libSDL_uclibc.a"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && $(CMAKE_COMMAND) -P CMakeFiles/SDL_uclibc.dir/cmake_clean_target.cmake
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL_uclibc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 SDL/CMakeFiles/SDL_uclibc.dir/build: SDL/libSDL_uclibc.a
 .PHONY : SDL/CMakeFiles/SDL_uclibc.dir/build
 
 SDL/CMakeFiles/SDL_uclibc.dir/clean:
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL && $(CMAKE_COMMAND) -P CMakeFiles/SDL_uclibc.dir/cmake_clean.cmake
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL && $(CMAKE_COMMAND) -P CMakeFiles/SDL_uclibc.dir/cmake_clean.cmake
 .PHONY : SDL/CMakeFiles/SDL_uclibc.dir/clean
 
 SDL/CMakeFiles/SDL_uclibc.dir/depend:
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/martial/Documents/SDL_SNAKE_GAME /home/martial/Documents/SDL_SNAKE_GAME/SDL /home/martial/Documents/SDL_SNAKE_GAME/build/vita /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL /home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL/CMakeFiles/SDL_uclibc.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL/CMakeFiles/SDL_uclibc.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : SDL/CMakeFiles/SDL_uclibc.dir/depend
 

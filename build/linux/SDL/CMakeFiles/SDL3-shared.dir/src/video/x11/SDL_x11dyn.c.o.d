@@ -1,8 +1,8 @@
 SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11dyn.c.o: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/x11/SDL_x11dyn.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/x11/SDL_x11dyn.c \
  /usr/include/stdc-predef.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/x11/SDL_x11dyn.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/x11/SDL_x11dyn.h \
  /usr/include/X11/Xlib.h /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h \
  /usr/include/X11/Xosdefs.h \
@@ -68,4 +68,4 @@ SDL/CMakeFiles/SDL3-shared.dir/src/video/x11/SDL_x11dyn.c.o: \
  /usr/include/X11/extensions/scrnsaver.h \
  /usr/include/X11/extensions/saver.h /usr/include/X11/extensions/shape.h \
  /usr/include/X11/extensions/shapeconst.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/x11/SDL_x11sym.h
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/x11/SDL_x11sym.h

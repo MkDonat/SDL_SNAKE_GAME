@@ -61,7 +61,7 @@ set_target_properties(SDL3::SDL3-static PROPERTIES
 set_property(TARGET SDL3::SDL3-static APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(SDL3::SDL3-static PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "C"
-  IMPORTED_LOCATION_RELEASE "/home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL/libSDL3.a"
+  IMPORTED_LOCATION_RELEASE "/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL/libSDL3.a"
   )
 
 # Make sure the targets which have been exported in some other

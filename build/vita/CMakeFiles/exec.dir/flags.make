@@ -4,7 +4,7 @@
 # compile CXX with /usr/local/vitasdk/bin/arm-vita-eabi-g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL/include-revision -I/home/martial/Documents/SDL_SNAKE_GAME/SDL/include
+CXX_INCLUDES = -I/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL/include-revision -I/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include
 
 CXX_FLAGS =  -Wl,-q -O3 -DNDEBUG -std=gnu++2a
 

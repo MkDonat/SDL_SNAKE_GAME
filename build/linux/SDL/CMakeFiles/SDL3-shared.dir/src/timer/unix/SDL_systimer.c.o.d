@@ -1,7 +1,7 @@
 SDL/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/timer/unix/SDL_systimer.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/timer/unix/SDL_systimer.c \
  /usr/include/stdc-predef.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -20,7 +20,7 @@ SDL/CMakeFiles/SDL3-shared.dir/src/timer/unix/SDL_systimer.c.o: \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/timer/unix/../SDL_timer_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/timer/unix/../SDL_timer_c.h \
  /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/timex.h \
  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \

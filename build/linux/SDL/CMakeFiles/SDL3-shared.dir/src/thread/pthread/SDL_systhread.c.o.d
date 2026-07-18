@@ -1,7 +1,7 @@
 SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/thread/pthread/SDL_systhread.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/thread/pthread/SDL_systhread.c \
  /usr/include/stdc-predef.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
  /usr/include/pthread.h /usr/include/features.h /usr/include/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
@@ -69,7 +69,7 @@ SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o: \
  /usr/include/x86_64-linux-gnu/asm/unistd.h \
  /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
  /usr/include/x86_64-linux-gnu/bits/syscall.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/thread/pthread/../../core/linux/SDL_dbus.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/thread/pthread/../../core/linux/SDL_dbus.h \
  /usr/include/dbus-1.0/dbus/dbus.h \
  /usr/lib/x86_64-linux-gnu/dbus-1.0/include/dbus/dbus-arch-deps.h \
  /usr/include/dbus-1.0/dbus/dbus-macros.h \
@@ -91,9 +91,9 @@ SDL/CMakeFiles/SDL3-shared.dir/src/thread/pthread/SDL_systhread.c.o: \
  /usr/include/dbus-1.0/dbus/dbus-threads.h /usr/include/dlfcn.h \
  /usr/include/x86_64-linux-gnu/bits/dlfcn.h \
  /usr/include/x86_64-linux-gnu/bits/dl_find_object.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/thread/pthread/../SDL_thread_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/thread/pthread/../pthread/SDL_systhread_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/thread/pthread/../../SDL_error_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/thread/pthread/../../SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/thread/pthread/../SDL_systhread.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/thread/pthread/../SDL_thread_c.h
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/thread/pthread/../SDL_thread_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/thread/pthread/../pthread/SDL_systhread_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/thread/pthread/../../SDL_error_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/thread/pthread/../../SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/thread/pthread/../SDL_systhread.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/thread/pthread/../SDL_thread_c.h

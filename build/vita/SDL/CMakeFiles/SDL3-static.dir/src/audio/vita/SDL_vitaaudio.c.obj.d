@@ -1,13 +1,13 @@
 SDL/CMakeFiles/SDL3-static.dir/src/audio/vita/SDL_vitaaudio.c.obj: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/audio/vita/SDL_vitaaudio.c \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/audio/vita/SDL_vitaaudio.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
  /usr/local/vitasdk/arm-vita-eabi/include/stdio.h \
  /usr/local/vitasdk/arm-vita-eabi/include/string.h \
  /usr/local/vitasdk/arm-vita-eabi/include/stdlib.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/audio/vita/../SDL_audiodev_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/audio/vita/../SDL_sysaudio.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/audio/vita/../SDL_sysaudio.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/audio/vita/SDL_vitaaudio.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/audio/vita/../SDL_audiodev_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/audio/vita/../SDL_sysaudio.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/audio/vita/../SDL_sysaudio.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/audio/vita/SDL_vitaaudio.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/threadmgr.h \
  /usr/local/vitasdk/arm-vita-eabi/include/vitasdk/build_utils.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/threadmgr/callback.h \

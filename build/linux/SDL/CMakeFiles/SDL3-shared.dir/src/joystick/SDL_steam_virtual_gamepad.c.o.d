@@ -1,9 +1,9 @@
 SDL/CMakeFiles/SDL3-shared.dir/src/joystick/SDL_steam_virtual_gamepad.c.o: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/joystick/SDL_steam_virtual_gamepad.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/joystick/SDL_steam_virtual_gamepad.c \
  /usr/include/stdc-predef.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/joystick/SDL_joystick_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/joystick/SDL_steam_virtual_gamepad.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/joystick/SDL_joystick_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/joystick/SDL_steam_virtual_gamepad.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
  /usr/include/x86_64-linux-gnu/sys/stat.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \

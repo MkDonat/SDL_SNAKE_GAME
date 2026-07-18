@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/martial/Documents/SDL_SNAKE_GAME
+CMAKE_SOURCE_DIR = /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/martial/Documents/SDL_SNAKE_GAME/build/vita
+CMAKE_BINARY_DIR = /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita
 
 # Include any dependencies generated for this target.
 include engine/src/CMakeFiles/engine_libs.dir/depend.make
@@ -70,32 +70,32 @@ include engine/src/CMakeFiles/engine_libs.dir/progress.make
 include engine/src/CMakeFiles/engine_libs.dir/flags.make
 
 engine/src/CMakeFiles/engine_libs.dir/world.cpp.obj: engine/src/CMakeFiles/engine_libs.dir/flags.make
-engine/src/CMakeFiles/engine_libs.dir/world.cpp.obj: /home/martial/Documents/SDL_SNAKE_GAME/engine/src/world.cpp
+engine/src/CMakeFiles/engine_libs.dir/world.cpp.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/engine/src/world.cpp
 engine/src/CMakeFiles/engine_libs.dir/world.cpp.obj: engine/src/CMakeFiles/engine_libs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/src/CMakeFiles/engine_libs.dir/world.cpp.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/engine/src && /usr/local/vitasdk/bin/arm-vita-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/src/CMakeFiles/engine_libs.dir/world.cpp.obj -MF CMakeFiles/engine_libs.dir/world.cpp.obj.d -o CMakeFiles/engine_libs.dir/world.cpp.obj -c /home/martial/Documents/SDL_SNAKE_GAME/engine/src/world.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/src/CMakeFiles/engine_libs.dir/world.cpp.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/engine/src && /usr/local/vitasdk/bin/arm-vita-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/src/CMakeFiles/engine_libs.dir/world.cpp.obj -MF CMakeFiles/engine_libs.dir/world.cpp.obj.d -o CMakeFiles/engine_libs.dir/world.cpp.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/engine/src/world.cpp
 
 engine/src/CMakeFiles/engine_libs.dir/world.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_libs.dir/world.cpp.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/engine/src && /usr/local/vitasdk/bin/arm-vita-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/engine/src/world.cpp > CMakeFiles/engine_libs.dir/world.cpp.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/engine/src && /usr/local/vitasdk/bin/arm-vita-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/engine/src/world.cpp > CMakeFiles/engine_libs.dir/world.cpp.i
 
 engine/src/CMakeFiles/engine_libs.dir/world.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_libs.dir/world.cpp.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/engine/src && /usr/local/vitasdk/bin/arm-vita-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/engine/src/world.cpp -o CMakeFiles/engine_libs.dir/world.cpp.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/engine/src && /usr/local/vitasdk/bin/arm-vita-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/engine/src/world.cpp -o CMakeFiles/engine_libs.dir/world.cpp.s
 
 engine/src/CMakeFiles/engine_libs.dir/collectable.cpp.obj: engine/src/CMakeFiles/engine_libs.dir/flags.make
-engine/src/CMakeFiles/engine_libs.dir/collectable.cpp.obj: /home/martial/Documents/SDL_SNAKE_GAME/engine/src/collectable.cpp
+engine/src/CMakeFiles/engine_libs.dir/collectable.cpp.obj: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/engine/src/collectable.cpp
 engine/src/CMakeFiles/engine_libs.dir/collectable.cpp.obj: engine/src/CMakeFiles/engine_libs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/src/CMakeFiles/engine_libs.dir/collectable.cpp.obj"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/engine/src && /usr/local/vitasdk/bin/arm-vita-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/src/CMakeFiles/engine_libs.dir/collectable.cpp.obj -MF CMakeFiles/engine_libs.dir/collectable.cpp.obj.d -o CMakeFiles/engine_libs.dir/collectable.cpp.obj -c /home/martial/Documents/SDL_SNAKE_GAME/engine/src/collectable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/src/CMakeFiles/engine_libs.dir/collectable.cpp.obj"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/engine/src && /usr/local/vitasdk/bin/arm-vita-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/src/CMakeFiles/engine_libs.dir/collectable.cpp.obj -MF CMakeFiles/engine_libs.dir/collectable.cpp.obj.d -o CMakeFiles/engine_libs.dir/collectable.cpp.obj -c /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/engine/src/collectable.cpp
 
 engine/src/CMakeFiles/engine_libs.dir/collectable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/engine_libs.dir/collectable.cpp.i"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/engine/src && /usr/local/vitasdk/bin/arm-vita-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/martial/Documents/SDL_SNAKE_GAME/engine/src/collectable.cpp > CMakeFiles/engine_libs.dir/collectable.cpp.i
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/engine/src && /usr/local/vitasdk/bin/arm-vita-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/engine/src/collectable.cpp > CMakeFiles/engine_libs.dir/collectable.cpp.i
 
 engine/src/CMakeFiles/engine_libs.dir/collectable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/engine_libs.dir/collectable.cpp.s"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/engine/src && /usr/local/vitasdk/bin/arm-vita-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/martial/Documents/SDL_SNAKE_GAME/engine/src/collectable.cpp -o CMakeFiles/engine_libs.dir/collectable.cpp.s
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/engine/src && /usr/local/vitasdk/bin/arm-vita-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/engine/src/collectable.cpp -o CMakeFiles/engine_libs.dir/collectable.cpp.s
 
 # Object files for target engine_libs
 engine_libs_OBJECTS = \
@@ -109,19 +109,19 @@ engine/src/libengine_libs.a: engine/src/CMakeFiles/engine_libs.dir/world.cpp.obj
 engine/src/libengine_libs.a: engine/src/CMakeFiles/engine_libs.dir/collectable.cpp.obj
 engine/src/libengine_libs.a: engine/src/CMakeFiles/engine_libs.dir/build.make
 engine/src/libengine_libs.a: engine/src/CMakeFiles/engine_libs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/martial/Documents/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libengine_libs.a"
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/engine/src && $(CMAKE_COMMAND) -P CMakeFiles/engine_libs.dir/cmake_clean_target.cmake
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/engine/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/engine_libs.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libengine_libs.a"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/engine/src && $(CMAKE_COMMAND) -P CMakeFiles/engine_libs.dir/cmake_clean_target.cmake
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/engine/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/engine_libs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/src/CMakeFiles/engine_libs.dir/build: engine/src/libengine_libs.a
 .PHONY : engine/src/CMakeFiles/engine_libs.dir/build
 
 engine/src/CMakeFiles/engine_libs.dir/clean:
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita/engine/src && $(CMAKE_COMMAND) -P CMakeFiles/engine_libs.dir/cmake_clean.cmake
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/engine/src && $(CMAKE_COMMAND) -P CMakeFiles/engine_libs.dir/cmake_clean.cmake
 .PHONY : engine/src/CMakeFiles/engine_libs.dir/clean
 
 engine/src/CMakeFiles/engine_libs.dir/depend:
-	cd /home/martial/Documents/SDL_SNAKE_GAME/build/vita && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/martial/Documents/SDL_SNAKE_GAME /home/martial/Documents/SDL_SNAKE_GAME/engine/src /home/martial/Documents/SDL_SNAKE_GAME/build/vita /home/martial/Documents/SDL_SNAKE_GAME/build/vita/engine/src /home/martial/Documents/SDL_SNAKE_GAME/build/vita/engine/src/CMakeFiles/engine_libs.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/engine/src /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/engine/src /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/engine/src/CMakeFiles/engine_libs.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : engine/src/CMakeFiles/engine_libs.dir/depend
 

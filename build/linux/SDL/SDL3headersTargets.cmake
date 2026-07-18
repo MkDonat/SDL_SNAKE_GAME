@@ -54,7 +54,7 @@ unset(_cmake_expected_targets)
 add_library(SDL3::Headers INTERFACE IMPORTED)
 
 set_target_properties(SDL3::Headers PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/martial/Documents/SDL_SNAKE_GAME/build/linux/SDL/include-revision;/home/martial/Documents/SDL_SNAKE_GAME/SDL/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux/SDL/include-revision;/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include"
 )
 
 # This file does not depend on other imported targets which have

@@ -1,11 +1,11 @@
 SDL/CMakeFiles/SDL3-shared.dir/src/haptic/linux/SDL_syshaptic.c.o: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/haptic/linux/SDL_syshaptic.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/haptic/linux/SDL_syshaptic.c \
  /usr/include/stdc-predef.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/haptic/linux/../SDL_syshaptic.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/haptic/linux/../../joystick/SDL_sysjoystick.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/haptic/linux/../../joystick/SDL_joystick_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/haptic/linux/../../joystick/linux/SDL_sysjoystick_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/haptic/linux/../SDL_syshaptic.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/haptic/linux/../../joystick/SDL_sysjoystick.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/haptic/linux/../../joystick/SDL_joystick_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/haptic/linux/../../joystick/linux/SDL_sysjoystick_c.h \
  /usr/include/linux/input.h /usr/include/x86_64-linux-gnu/sys/time.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
@@ -29,8 +29,8 @@ SDL/CMakeFiles/SDL3-shared.dir/src/haptic/linux/SDL_syshaptic.c.o: \
  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
  /usr/include/asm-generic/posix_types.h \
  /usr/include/linux/input-event-codes.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/haptic/linux/../../core/linux/SDL_evdev_capabilities.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/haptic/linux/../../core/linux/SDL_udev.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/haptic/linux/../../core/linux/SDL_evdev_capabilities.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/haptic/linux/../../core/linux/SDL_udev.h \
  /usr/include/libudev.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
  /usr/include/x86_64-linux-gnu/bits/sysmacros.h /usr/include/unistd.h \

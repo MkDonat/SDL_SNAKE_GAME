@@ -1,9 +1,9 @@
 SDL/CMakeFiles/SDL3-shared.dir/src/audio/alsa/SDL_alsa_audio.c.o: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/audio/alsa/SDL_alsa_audio.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/audio/alsa/SDL_alsa_audio.c \
  /usr/include/stdc-predef.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/audio/alsa/../SDL_sysaudio.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/audio/alsa/SDL_alsa_audio.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/audio/alsa/../SDL_sysaudio.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/audio/alsa/SDL_alsa_audio.h \
  /usr/include/alsa/asoundlib.h /usr/include/unistd.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \

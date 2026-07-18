@@ -1,18 +1,18 @@
 SDL/CMakeFiles/SDL3-static.dir/src/video/vita/SDL_vitavideo.c.obj: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitavideo.c \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/../SDL_sysvideo.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_vulkan.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_stdinc.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_error.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_video.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_begin_code.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_close_code.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/../SDL_surface_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/../SDL_blit.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/../../events/SDL_mouse_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/../../events/SDL_keyboard_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/../../events/SDL_keymap_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitavideo.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/../SDL_sysvideo.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_vulkan.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_stdinc.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_error.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_video.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_begin_code.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_close_code.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/../SDL_surface_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/../SDL_blit.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/../../events/SDL_mouse_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/../../events/SDL_keyboard_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/../../events/SDL_keymap_c.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/processmgr.h \
  /usr/local/vitasdk/arm-vita-eabi/include/vitasdk/build_utils.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2common/kernel/processmgr.h \
@@ -35,8 +35,8 @@ SDL/CMakeFiles/SDL3-static.dir/src/video/vita/SDL_vitavideo.c.obj: \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/threadmgr/thread.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/cpu.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/threadmgr/vfp.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitavideo.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/../SDL_egl_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitavideo.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/../SDL_egl_c.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/display.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2common/display.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/ime_dialog.h \
@@ -48,12 +48,12 @@ SDL/CMakeFiles/SDL3-static.dir/src/video/vita/SDL_vitavideo.c.obj: \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2common/defs.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/libime.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/sysmodule.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitatouch.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitakeyboard.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitamouse_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitaframebuffer.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitamessagebox.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitagles_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitatouch.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitakeyboard.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitamouse_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitaframebuffer.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitamessagebox.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitagles_c.h \
  /usr/local/vitasdk/arm-vita-eabi/include/pib.h \
  /usr/local/vitasdk/arm-vita-eabi/include/EGL/egl.h \
  /usr/local/vitasdk/arm-vita-eabi/include/EGL/eglplatform.h \

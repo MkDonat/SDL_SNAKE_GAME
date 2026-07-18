@@ -1,19 +1,19 @@
 SDL/CMakeFiles/SDL3-static.dir/src/video/vita/SDL_vitagles.c.obj: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitagles.c \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitagles.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
  /usr/local/vitasdk/arm-vita-eabi/include/stdlib.h \
  /usr/local/vitasdk/arm-vita-eabi/include/string.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitavideo.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/../SDL_sysvideo.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_vulkan.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_stdinc.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_error.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_video.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_begin_code.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_close_code.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/../SDL_surface_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/../SDL_blit.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/../SDL_egl_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitavideo.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/../SDL_sysvideo.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_vulkan.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_stdinc.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_error.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_video.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_begin_code.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_close_code.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/../SDL_surface_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/../SDL_blit.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/../SDL_egl_c.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/types.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2common/types.h \
  /usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include/stddef.h \
@@ -30,7 +30,7 @@ SDL/CMakeFiles/SDL3-static.dir/src/video/vita/SDL_vitagles.c.obj: \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2common/defs.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/libime.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/sysmodule.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitagles_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/vita/SDL_vitagles_c.h \
  /usr/local/vitasdk/arm-vita-eabi/include/pib.h \
  /usr/local/vitasdk/arm-vita-eabi/include/EGL/egl.h \
  /usr/local/vitasdk/arm-vita-eabi/include/EGL/eglplatform.h \

@@ -1,7 +1,7 @@
 SDL/CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.o: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_utils.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_utils.c \
  /usr/include/stdc-predef.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
  /usr/include/unistd.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -13,5 +13,5 @@ SDL/CMakeFiles/SDL3-shared.dir/src/SDL_utils.c.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/joystick/SDL_joystick_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/joystick/SDL_joystick_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h

@@ -1,7 +1,7 @@
 SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/process/posix/SDL_posixprocess.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/process/posix/SDL_posixprocess.c \
  /usr/include/stdc-predef.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
  /usr/include/dirent.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/dirent.h \
@@ -63,5 +63,5 @@ SDL/CMakeFiles/SDL3-shared.dir/src/process/posix/SDL_posixprocess.c.o: \
  /usr/include/stdlib.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/sys/wait.h \
  /usr/include/x86_64-linux-gnu/bits/types/idtype_t.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/process/posix/../SDL_sysprocess.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/process/posix/../../io/SDL_iostream_c.h
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/process/posix/../SDL_sysprocess.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/process/posix/../../io/SDL_iostream_c.h

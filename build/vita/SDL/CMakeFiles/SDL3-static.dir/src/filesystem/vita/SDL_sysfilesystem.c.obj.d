@@ -1,7 +1,7 @@
 SDL/CMakeFiles/SDL3-static.dir/src/filesystem/vita/SDL_sysfilesystem.c.obj: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/filesystem/vita/SDL_sysfilesystem.c \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/filesystem/vita/../SDL_sysfilesystem.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/filesystem/vita/SDL_sysfilesystem.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/filesystem/vita/../SDL_sysfilesystem.h \
  /usr/local/vitasdk/arm-vita-eabi/include/errno.h \
  /usr/local/vitasdk/arm-vita-eabi/include/sys/errno.h \
  /usr/local/vitasdk/arm-vita-eabi/include/sys/reent.h \

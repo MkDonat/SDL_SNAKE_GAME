@@ -1,14 +1,14 @@
 SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.o: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/hidapi/SDL_hidapi.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/hidapi/SDL_hidapi.c \
  /usr/include/stdc-predef.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/hidapi/SDL_hidapi_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/hidapi/../joystick/usb_ids.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/hidapi/../SDL_hints_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/hidapi/../SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/hidapi/hidapi/hidapi.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/hidapi/SDL_hidapi_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/hidapi/../joystick/usb_ids.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/hidapi/../SDL_hints_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/hidapi/../SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/hidapi/hidapi/hidapi.h \
  /usr/include/wchar.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/hidapi/../core/linux/SDL_udev.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/hidapi/../core/linux/SDL_udev.h \
  /usr/include/libudev.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
@@ -55,8 +55,8 @@ SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/hidapi/SDL_hidapi_linux.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/hidapi/linux/hid.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/hidapi/SDL_hidapi_linux.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/hidapi/linux/hid.c \
  /usr/include/stdio.h /usr/include/stdlib.h /usr/include/locale.h \
  /usr/include/x86_64-linux-gnu/bits/locale.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
@@ -85,4 +85,4 @@ SDL/CMakeFiles/SDL3-shared.dir/src/hidapi/SDL_hidapi.c.o: \
  /usr/include/x86_64-linux-gnu/bits/utsname.h /usr/include/linux/hidraw.h \
  /usr/include/linux/hid.h /usr/include/linux/version.h \
  /usr/include/linux/input.h /usr/include/linux/input-event-codes.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/hidapi/linux/../hidapi/hidapi.h
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/hidapi/linux/../hidapi/hidapi.h

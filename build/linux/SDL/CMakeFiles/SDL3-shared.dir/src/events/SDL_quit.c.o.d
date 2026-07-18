@@ -1,7 +1,7 @@
 SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.o: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/events/SDL_quit.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/events/SDL_quit.c \
  /usr/include/stdc-predef.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
  /usr/include/signal.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -38,23 +38,23 @@ SDL/CMakeFiles/SDL3-shared.dir/src/events/SDL_quit.c.o: \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/events/SDL_events_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/events/../video/SDL_sysvideo.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_vulkan.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_stdinc.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_error.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_video.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_begin_code.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_close_code.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/events/../video/SDL_surface_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/events/../video/SDL_blit.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/events/SDL_clipboardevents_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/events/SDL_displayevents_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/events/SDL_dropevents_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/events/SDL_keyboard_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/events/SDL_keymap_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/events/SDL_mouse_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/events/SDL_touch_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/events/SDL_pen_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/events/../SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/events/SDL_windowevents_c.h
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/events/SDL_events_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/events/../video/SDL_sysvideo.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_vulkan.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_stdinc.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_error.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_video.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_begin_code.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_close_code.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/events/../video/SDL_surface_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/events/../video/SDL_blit.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/events/SDL_clipboardevents_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/events/SDL_displayevents_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/events/SDL_dropevents_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/events/SDL_keyboard_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/events/SDL_keymap_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/events/SDL_mouse_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/events/SDL_touch_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/events/SDL_pen_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/events/../SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/events/SDL_windowevents_c.h

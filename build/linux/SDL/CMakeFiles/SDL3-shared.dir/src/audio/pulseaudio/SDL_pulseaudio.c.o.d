@@ -1,7 +1,7 @@
 SDL/CMakeFiles/SDL3-shared.dir/src/audio/pulseaudio/SDL_pulseaudio.c.o: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/audio/pulseaudio/SDL_pulseaudio.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/audio/pulseaudio/SDL_pulseaudio.c \
  /usr/include/stdc-predef.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
  /usr/include/signal.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -39,8 +39,8 @@ SDL/CMakeFiles/SDL3-shared.dir/src/audio/pulseaudio/SDL_pulseaudio.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
  /usr/include/x86_64-linux-gnu/sys/types.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/audio/pulseaudio/../SDL_sysaudio.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/audio/pulseaudio/SDL_pulseaudio.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/audio/pulseaudio/../SDL_sysaudio.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/audio/pulseaudio/SDL_pulseaudio.h \
  /usr/include/pulse/pulseaudio.h /usr/include/pulse/direction.h \
  /usr/include/pulse/def.h /usr/include/inttypes.h \
  /usr/include/x86_64-linux-gnu/sys/time.h \
@@ -73,9 +73,9 @@ SDL/CMakeFiles/SDL3-shared.dir/src/audio/pulseaudio/SDL_pulseaudio.c.o: \
  /usr/include/pulse/thread-mainloop.h /usr/include/pulse/mainloop.h \
  /usr/include/pulse/mainloop-signal.h /usr/include/pulse/util.h \
  /usr/include/pulse/timeval.h /usr/include/pulse/rtclock.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/audio/pulseaudio/../../thread/SDL_systhread.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/audio/pulseaudio/../../thread/SDL_thread_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/audio/pulseaudio/../../thread/pthread/SDL_systhread_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/audio/pulseaudio/../../thread/SDL_systhread.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/audio/pulseaudio/../../thread/SDL_thread_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/audio/pulseaudio/../../thread/pthread/SDL_systhread_c.h \
  /usr/include/pthread.h /usr/include/sched.h \
  /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
@@ -91,5 +91,5 @@ SDL/CMakeFiles/SDL3-shared.dir/src/audio/pulseaudio/SDL_pulseaudio.c.o: \
  /usr/include/x86_64-linux-gnu/bits/endian.h \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/audio/pulseaudio/../../thread/../SDL_error_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/audio/pulseaudio/../../thread/../SDL_internal.h
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/audio/pulseaudio/../../thread/../SDL_error_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/audio/pulseaudio/../../thread/../SDL_internal.h

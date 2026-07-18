@@ -1,7 +1,7 @@
 SDL/CMakeFiles/SDL3-static.dir/src/timer/vita/SDL_systimer.c.obj: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/timer/vita/SDL_systimer.c \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/timer/vita/../SDL_timer_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/timer/vita/SDL_systimer.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/timer/vita/../SDL_timer_c.h \
  /usr/local/vitasdk/arm-vita-eabi/include/stdlib.h \
  /usr/local/vitasdk/arm-vita-eabi/include/time.h \
  /usr/local/vitasdk/arm-vita-eabi/include/_ansi.h \

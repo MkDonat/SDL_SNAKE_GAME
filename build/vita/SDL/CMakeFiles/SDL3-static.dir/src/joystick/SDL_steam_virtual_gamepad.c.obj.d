@@ -1,8 +1,8 @@
 SDL/CMakeFiles/SDL3-static.dir/src/joystick/SDL_steam_virtual_gamepad.c.obj: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/joystick/SDL_steam_virtual_gamepad.c \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/joystick/SDL_joystick_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/joystick/SDL_steam_virtual_gamepad.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/joystick/SDL_steam_virtual_gamepad.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/joystick/SDL_joystick_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/joystick/SDL_steam_virtual_gamepad.h \
  /usr/local/vitasdk/arm-vita-eabi/include/sys/types.h \
  /usr/local/vitasdk/arm-vita-eabi/include/sys/stat.h \
  /usr/local/vitasdk/arm-vita-eabi/include/_ansi.h \

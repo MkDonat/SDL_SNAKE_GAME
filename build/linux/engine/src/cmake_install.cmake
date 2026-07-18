@@ -1,4 +1,4 @@
-# Install script for directory: /home/martial/Documents/SDL_SNAKE_GAME/engine/src
+# Install script for directory: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/engine/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

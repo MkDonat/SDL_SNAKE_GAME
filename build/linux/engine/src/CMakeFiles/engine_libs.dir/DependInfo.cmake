@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/martial/Documents/SDL_SNAKE_GAME/engine/src/collectable.cpp" "engine/src/CMakeFiles/engine_libs.dir/collectable.cpp.o" "gcc" "engine/src/CMakeFiles/engine_libs.dir/collectable.cpp.o.d"
-  "/home/martial/Documents/SDL_SNAKE_GAME/engine/src/world.cpp" "engine/src/CMakeFiles/engine_libs.dir/world.cpp.o" "gcc" "engine/src/CMakeFiles/engine_libs.dir/world.cpp.o.d"
+  "/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/engine/src/collectable.cpp" "engine/src/CMakeFiles/engine_libs.dir/collectable.cpp.o" "gcc" "engine/src/CMakeFiles/engine_libs.dir/collectable.cpp.o.d"
+  "/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/engine/src/world.cpp" "engine/src/CMakeFiles/engine_libs.dir/world.cpp.o" "gcc" "engine/src/CMakeFiles/engine_libs.dir/world.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

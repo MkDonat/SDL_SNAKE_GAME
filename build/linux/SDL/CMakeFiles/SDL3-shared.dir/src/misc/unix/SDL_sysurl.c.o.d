@@ -1,8 +1,8 @@
 SDL/CMakeFiles/SDL3-shared.dir/src/misc/unix/SDL_sysurl.c.o: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/misc/unix/SDL_sysurl.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/misc/unix/SDL_sysurl.c \
  /usr/include/stdc-predef.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/misc/unix/../SDL_sysurl.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/misc/unix/../SDL_sysurl.h \
  /usr/include/stdio.h /usr/include/stdlib.h /usr/include/string.h \
  /usr/include/unistd.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \

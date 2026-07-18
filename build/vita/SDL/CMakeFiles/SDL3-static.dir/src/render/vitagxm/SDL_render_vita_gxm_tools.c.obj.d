@@ -1,10 +1,10 @@
 SDL/CMakeFiles/SDL3-static.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.obj: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/render/vitagxm/SDL_render_vita_gxm_tools.c \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/render/vitagxm/../SDL_sysrender.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/render/vitagxm/../../video/SDL_surface_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/render/vitagxm/../../video/SDL_blit.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/render/vitagxm/../SDL_yuv_sw_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/render/vitagxm/SDL_render_vita_gxm_tools.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/render/vitagxm/../SDL_sysrender.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/render/vitagxm/../../video/SDL_surface_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/render/vitagxm/../../video/SDL_blit.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/render/vitagxm/../SDL_yuv_sw_c.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/processmgr.h \
  /usr/local/vitasdk/arm-vita-eabi/include/vitasdk/build_utils.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2common/kernel/processmgr.h \
@@ -44,7 +44,7 @@ SDL/CMakeFiles/SDL3-static.dir/src/render/vitagxm/SDL_render_vita_gxm_tools.c.ob
  /usr/local/vitasdk/arm-vita-eabi/include/string.h \
  /usr/local/vitasdk/arm-vita-eabi/include/math.h \
  /usr/local/vitasdk/arm-vita-eabi/include/stdlib.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/render/vitagxm/SDL_render_vita_gxm_tools.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/render/vitagxm/SDL_render_vita_gxm_types.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/render/vitagxm/SDL_render_vita_gxm_memory.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/render/vitagxm/SDL_render_vita_gxm_shaders.h
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/render/vitagxm/SDL_render_vita_gxm_tools.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/render/vitagxm/SDL_render_vita_gxm_types.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/render/vitagxm/SDL_render_vita_gxm_memory.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/render/vitagxm/SDL_render_vita_gxm_shaders.h

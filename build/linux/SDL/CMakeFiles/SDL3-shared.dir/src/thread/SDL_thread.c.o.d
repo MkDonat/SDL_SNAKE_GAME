@@ -1,9 +1,9 @@
 SDL/CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.o: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/thread/SDL_thread.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/thread/SDL_thread.c \
  /usr/include/stdc-predef.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/thread/SDL_thread_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/thread/pthread/SDL_systhread_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/thread/SDL_thread_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/thread/pthread/SDL_systhread_c.h \
  /usr/include/pthread.h /usr/include/features.h /usr/include/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
@@ -28,6 +28,6 @@ SDL/CMakeFiles/SDL3-shared.dir/src/thread/SDL_thread.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/thread/../SDL_error_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/thread/../SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/thread/SDL_systhread.h
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/thread/../SDL_error_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/thread/../SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/thread/SDL_systhread.h

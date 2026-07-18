@@ -1,7 +1,7 @@
 SDL/CMakeFiles/SDL3-shared.dir/src/audio/sndio/SDL_sndioaudio.c.o: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/audio/sndio/SDL_sndioaudio.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/audio/sndio/SDL_sndioaudio.c \
  /usr/include/stdc-predef.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
  /usr/include/stdio.h /usr/include/signal.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -40,6 +40,6 @@ SDL/CMakeFiles/SDL3-shared.dir/src/audio/sndio/SDL_sndioaudio.c.o: \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h /usr/include/poll.h \
  /usr/include/x86_64-linux-gnu/sys/poll.h \
  /usr/include/x86_64-linux-gnu/bits/poll.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/audio/sndio/../SDL_sysaudio.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/audio/sndio/SDL_sndioaudio.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/audio/sndio/../SDL_sysaudio.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/audio/sndio/SDL_sndioaudio.h \
  /usr/include/sndio.h /usr/include/x86_64-linux-gnu/sys/types.h

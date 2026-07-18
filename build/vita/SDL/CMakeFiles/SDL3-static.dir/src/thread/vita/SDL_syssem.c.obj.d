@@ -1,6 +1,6 @@
 SDL/CMakeFiles/SDL3-static.dir/src/thread/vita/SDL_syssem.c.obj: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/thread/vita/SDL_syssem.c \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/thread/vita/SDL_syssem.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
  /usr/local/vitasdk/arm-vita-eabi/include/stdio.h \
  /usr/local/vitasdk/arm-vita-eabi/include/stdlib.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/types.h \

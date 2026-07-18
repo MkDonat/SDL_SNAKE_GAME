@@ -1,6 +1,6 @@
 SDL/CMakeFiles/SDL3-static.dir/src/stdlib/SDL_iconv.c.obj: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/stdlib/SDL_iconv.c \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/stdlib/SDL_iconv.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
  /usr/local/vitasdk/arm-vita-eabi/include/iconv.h \
  /usr/local/vitasdk/arm-vita-eabi/include/_ansi.h \
  /usr/local/vitasdk/arm-vita-eabi/include/reent.h \

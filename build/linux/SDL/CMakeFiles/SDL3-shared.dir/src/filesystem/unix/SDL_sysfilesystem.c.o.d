@@ -1,8 +1,8 @@
 SDL/CMakeFiles/SDL3-shared.dir/src/filesystem/unix/SDL_sysfilesystem.c.o: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/filesystem/unix/SDL_sysfilesystem.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/filesystem/unix/SDL_sysfilesystem.c \
  /usr/include/stdc-predef.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/filesystem/unix/../SDL_sysfilesystem.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/filesystem/unix/../SDL_sysfilesystem.h \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/sys/stat.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \

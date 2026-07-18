@@ -1,7 +1,7 @@
 SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.o: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/io/SDL_iostream.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/io/SDL_iostream.c \
  /usr/include/stdc-predef.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
  /usr/include/unistd.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
@@ -45,4 +45,4 @@ SDL/CMakeFiles/SDL3-shared.dir/src/io/SDL_iostream.c.o: \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/io/SDL_iostream_c.h
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/io/SDL_iostream_c.h

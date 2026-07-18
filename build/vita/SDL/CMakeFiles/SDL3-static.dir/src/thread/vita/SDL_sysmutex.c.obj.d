@@ -1,7 +1,7 @@
 SDL/CMakeFiles/SDL3-static.dir/src/thread/vita/SDL_sysmutex.c.obj: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/thread/vita/SDL_sysmutex.c \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/thread/vita/SDL_systhread_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/thread/vita/SDL_sysmutex.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/thread/vita/SDL_systhread_c.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/types.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2common/types.h \
  /usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include/stddef.h \

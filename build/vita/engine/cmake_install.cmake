@@ -1,4 +1,4 @@
-# Install script for directory: /home/martial/Documents/SDL_SNAKE_GAME/engine
+# Install script for directory: /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/engine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/martial/Documents/SDL_SNAKE_GAME/build/vita/engine/src/cmake_install.cmake")
+  include("/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/engine/src/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/martial/Documents/SDL_SNAKE_GAME/build/vita/engine/inc/cmake_install.cmake")
+  include("/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/engine/inc/cmake_install.cmake")
 endif()
 

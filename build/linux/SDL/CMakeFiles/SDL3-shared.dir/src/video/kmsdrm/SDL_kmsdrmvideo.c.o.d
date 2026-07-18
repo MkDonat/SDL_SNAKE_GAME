@@ -1,39 +1,39 @@
 SDL/CMakeFiles/SDL3-shared.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.o: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/SDL_kmsdrmvideo.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/SDL_kmsdrmvideo.c \
  /usr/include/stdc-predef.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../SDL_egl_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_egl.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_platform_defines.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../SDL_egl_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_egl.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_platform_defines.h \
  /usr/include/EGL/egl.h /usr/include/EGL/eglplatform.h \
  /usr/include/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h \
  /usr/include/EGL/eglext.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../SDL_sysvideo.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_vulkan.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_stdinc.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_error.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_video.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_begin_code.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_close_code.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../SDL_surface_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../SDL_blit.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_events_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/../video/SDL_sysvideo.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_clipboardevents_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_displayevents_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_dropevents_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_keyboard_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_keymap_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_mouse_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_touch_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_pen_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/../SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_windowevents_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_keyboard_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_mouse_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../core/linux/SDL_evdev.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/SDL_kmsdrmdyn.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../SDL_sysvideo.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_vulkan.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_stdinc.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_error.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_video.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_begin_code.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_close_code.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../SDL_surface_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../SDL_blit.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_events_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/../video/SDL_sysvideo.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_clipboardevents_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_displayevents_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_dropevents_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_keyboard_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_keymap_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_mouse_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_touch_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_pen_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/../SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_windowevents_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_keyboard_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../events/SDL_mouse_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../../core/linux/SDL_evdev.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/SDL_kmsdrmdyn.h \
  /usr/include/xf86drm.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/libdrm/drm.h \
  /usr/include/linux/types.h /usr/include/x86_64-linux-gnu/asm/types.h \
@@ -50,11 +50,11 @@ SDL/CMakeFiles/SDL3-shared.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.o: \
  /usr/include/libdrm/drm_mode.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h /usr/include/gbm.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/SDL_kmsdrmsym.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/SDL_kmsdrmevents.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/SDL_kmsdrmmouse.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/SDL_kmsdrmvideo.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../SDL_sysvideo.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/SDL_kmsdrmsym.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/SDL_kmsdrmevents.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/SDL_kmsdrmmouse.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/SDL_kmsdrmvideo.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/../SDL_sysvideo.h \
  /usr/include/fcntl.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
@@ -72,8 +72,8 @@ SDL/CMakeFiles/SDL3-shared.dir/src/video/kmsdrm/SDL_kmsdrmvideo.c.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/SDL_kmsdrmopengles.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/SDL_kmsdrmvulkan.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/SDL_kmsdrmopengles.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/video/kmsdrm/SDL_kmsdrmvulkan.h \
  /usr/include/dirent.h /usr/include/x86_64-linux-gnu/bits/dirent.h \
  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
  /usr/include/x86_64-linux-gnu/bits/local_lim.h \

@@ -4,7 +4,7 @@
 # compile C with /usr/local/vitasdk/bin/arm-vita-eabi-gcc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/martial/Documents/SDL_SNAKE_GAME/build/vita/SDL/include-revision -I/home/martial/Documents/SDL_SNAKE_GAME/SDL/include
+C_INCLUDES = -I/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/vita/SDL/include-revision -I/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include
 
 C_FLAGS =  -Wl,-q -O3 -DNDEBUG -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always
 

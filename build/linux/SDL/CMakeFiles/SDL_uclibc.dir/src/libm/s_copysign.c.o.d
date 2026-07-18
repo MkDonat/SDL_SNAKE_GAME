@@ -1,11 +1,11 @@
 SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.o: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/s_copysign.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/s_copysign.c \
  /usr/include/stdc-predef.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/build/linux/SDL/include-config-/build_config/SDL_build_config.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_platform_defines.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/dynapi/SDL_dynapi.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/dynapi/SDL_dynapi_overrides.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux/SDL/include-config-/build_config/SDL_build_config.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_platform_defines.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/dynapi/SDL_dynapi.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/dynapi/SDL_dynapi_overrides.h \
  /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -74,66 +74,66 @@ SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_stdinc.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_stdinc.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_begin_code.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_close_code.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_assert.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_asyncio.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_atomic.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_audio.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_endian.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_error.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_mutex.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_thread.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_properties.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_iostream.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_bits.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_blendmode.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_camera.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_pixels.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_surface.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_rect.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_clipboard.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_cpuinfo.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_dialog.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_video.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_events.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_gamepad.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_guid.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_joystick.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_power.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_sensor.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_keyboard.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_keycode.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_scancode.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_mouse.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_pen.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_touch.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_filesystem.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_gpu.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_haptic.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_hidapi.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_hints.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_init.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_loadso.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_locale.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_log.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_messagebox.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_metal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_misc.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_platform.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_process.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_render.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_storage.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_system.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_time.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_timer.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_tray.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_version.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_oldnames.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_intrin.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_begin_code.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_close_code.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_assert.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_asyncio.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_atomic.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_audio.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_endian.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_error.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_mutex.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_thread.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_properties.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_iostream.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_bits.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_blendmode.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_camera.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_pixels.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_surface.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_rect.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_clipboard.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_cpuinfo.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_dialog.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_video.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_events.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_gamepad.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_guid.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_joystick.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_power.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_sensor.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_keyboard.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_keycode.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_scancode.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_mouse.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_pen.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_touch.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_filesystem.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_gpu.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_haptic.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_hidapi.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_hints.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_init.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_loadso.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_locale.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_log.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_messagebox.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_metal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_misc.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_platform.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_process.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_render.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_storage.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_system.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_time.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_timer.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_tray.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_version.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_oldnames.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_intrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h \
@@ -229,8 +229,8 @@ SDL/CMakeFiles/SDL_uclibc.dir/src/libm/s_copysign.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/prfchwintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/keylockerintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxfp16intrin.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_main.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_utils_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_hashtable.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/math_libm.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/libm/math_private.h
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/include/SDL3/SDL_main.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_utils_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_hashtable.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/math_libm.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/libm/math_private.h

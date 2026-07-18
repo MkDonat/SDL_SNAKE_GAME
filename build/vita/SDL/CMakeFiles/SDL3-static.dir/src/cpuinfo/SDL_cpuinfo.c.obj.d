@@ -1,7 +1,7 @@
 SDL/CMakeFiles/SDL3-static.dir/src/cpuinfo/SDL_cpuinfo.c.obj: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/cpuinfo/SDL_cpuinfo.c \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/cpuinfo/SDL_cpuinfo_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/cpuinfo/SDL_cpuinfo.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/cpuinfo/SDL_cpuinfo_c.h \
  /usr/local/vitasdk/arm-vita-eabi/include/unistd.h \
  /usr/local/vitasdk/arm-vita-eabi/include/sys/unistd.h \
  /usr/local/vitasdk/arm-vita-eabi/include/_ansi.h \

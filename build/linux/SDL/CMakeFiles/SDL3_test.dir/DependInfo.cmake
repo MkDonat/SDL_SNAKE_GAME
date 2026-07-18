@@ -8,16 +8,16 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/martial/Documents/SDL_SNAKE_GAME/SDL/src/test/SDL_test_assert.c" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o" "gcc" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o.d"
-  "/home/martial/Documents/SDL_SNAKE_GAME/SDL/src/test/SDL_test_common.c" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o" "gcc" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o.d"
-  "/home/martial/Documents/SDL_SNAKE_GAME/SDL/src/test/SDL_test_compare.c" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o" "gcc" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o.d"
-  "/home/martial/Documents/SDL_SNAKE_GAME/SDL/src/test/SDL_test_crc32.c" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o" "gcc" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o.d"
-  "/home/martial/Documents/SDL_SNAKE_GAME/SDL/src/test/SDL_test_font.c" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o" "gcc" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o.d"
-  "/home/martial/Documents/SDL_SNAKE_GAME/SDL/src/test/SDL_test_fuzzer.c" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o" "gcc" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o.d"
-  "/home/martial/Documents/SDL_SNAKE_GAME/SDL/src/test/SDL_test_harness.c" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o" "gcc" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o.d"
-  "/home/martial/Documents/SDL_SNAKE_GAME/SDL/src/test/SDL_test_log.c" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o" "gcc" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o.d"
-  "/home/martial/Documents/SDL_SNAKE_GAME/SDL/src/test/SDL_test_md5.c" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o" "gcc" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o.d"
-  "/home/martial/Documents/SDL_SNAKE_GAME/SDL/src/test/SDL_test_memory.c" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o" "gcc" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o.d"
+  "/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/test/SDL_test_assert.c" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o" "gcc" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_assert.c.o.d"
+  "/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/test/SDL_test_common.c" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o" "gcc" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_common.c.o.d"
+  "/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/test/SDL_test_compare.c" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o" "gcc" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_compare.c.o.d"
+  "/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/test/SDL_test_crc32.c" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o" "gcc" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_crc32.c.o.d"
+  "/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/test/SDL_test_font.c" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o" "gcc" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_font.c.o.d"
+  "/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/test/SDL_test_fuzzer.c" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o" "gcc" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_fuzzer.c.o.d"
+  "/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/test/SDL_test_harness.c" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o" "gcc" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_harness.c.o.d"
+  "/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/test/SDL_test_log.c" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o" "gcc" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_log.c.o.d"
+  "/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/test/SDL_test_md5.c" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o" "gcc" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_md5.c.o.d"
+  "/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/test/SDL_test_memory.c" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o" "gcc" "SDL/CMakeFiles/SDL3_test.dir/src/test/SDL_test_memory.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

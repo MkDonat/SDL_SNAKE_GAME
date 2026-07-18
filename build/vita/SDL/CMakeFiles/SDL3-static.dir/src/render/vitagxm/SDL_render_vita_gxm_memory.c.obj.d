@@ -1,7 +1,7 @@
 SDL/CMakeFiles/SDL3-static.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.obj: \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/render/vitagxm/SDL_render_vita_gxm_memory.c \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/render/vitagxm/SDL_render_vita_gxm_memory.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/render/vitagxm/SDL_render_vita_gxm_memory.c \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/SDL_internal.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/render/vitagxm/SDL_render_vita_gxm_memory.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/gxm.h \
  /usr/local/vitasdk/arm-vita-eabi/include/vitasdk/build_utils.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/types.h \
@@ -10,11 +10,11 @@ SDL/CMakeFiles/SDL3-static.dir/src/render/vitagxm/SDL_render_vita_gxm_memory.c.o
  /usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include/stdint.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/sysmem.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2common/kernel/sysmem.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/render/vitagxm/SDL_render_vita_gxm_types.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/render/vitagxm/../SDL_sysrender.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/render/vitagxm/../../video/SDL_surface_c.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/render/vitagxm/../../video/SDL_blit.h \
- /home/martial/Documents/SDL_SNAKE_GAME/SDL/src/render/vitagxm/../SDL_yuv_sw_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/render/vitagxm/SDL_render_vita_gxm_types.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/render/vitagxm/../SDL_sysrender.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/render/vitagxm/../../video/SDL_surface_c.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/render/vitagxm/../../video/SDL_blit.h \
+ /home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/SDL/src/render/vitagxm/../SDL_yuv_sw_c.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/processmgr.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2common/kernel/processmgr.h \
  /usr/local/vitasdk/arm-vita-eabi/include/psp2/kernel/threadmgr.h \
