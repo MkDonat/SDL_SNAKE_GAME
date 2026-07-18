@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/exec.dir/main.cpp.o -o exec  -Wl,-rpath,/home/martial/Documents/SDL3_PROJECTS/SDL_SNAKE_GAME/build/linux libSDL3.so.0.2.24 

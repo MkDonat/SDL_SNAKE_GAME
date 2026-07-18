@@ -1,2 +1,0 @@
-/usr/bin/ar qc libengine_libs.a CMakeFiles/engine_libs.dir/world.cpp.o CMakeFiles/engine_libs.dir/collectable.cpp.o
-/usr/bin/ranlib libengine_libs.a

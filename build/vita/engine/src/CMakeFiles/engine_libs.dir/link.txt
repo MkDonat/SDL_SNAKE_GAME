@@ -1,2 +1,0 @@
-/usr/local/vitasdk/bin/arm-vita-eabi-ar qc libengine_libs.a CMakeFiles/engine_libs.dir/world.cpp.obj CMakeFiles/engine_libs.dir/collectable.cpp.obj
-/usr/local/vitasdk/bin/arm-vita-eabi-ranlib libengine_libs.a
